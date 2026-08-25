@@ -85,10 +85,30 @@ Open `paper_bot.py` and edit the `CONFIG` block near the top.
 ## Command line options
 
 ```
-python paper_bot.py --dry-run     # print the digest, do not post
+python paper_bot.py --dry-run     # print the digest, do not post, do not touch the archive
 python paper_bot.py --days 14      # look back 14 days instead of 7
 python paper_bot.py --all          # ignore the archive, report every match in the window
 python paper_bot.py                # real run, posts to Discord (needs the webhook)
+```
+
+A dry run never writes the archive, so you can preview as many times as you
+like and your first real run will still post everything it finds.
+
+## If it says "no new matches"
+
+The bot only posts papers it has not seen before. If a real run says there are
+no new matches when you expected some, the archive already has them. To post
+the full week anyway, ignore the archive for one run:
+
+```
+python paper_bot.py --all
+```
+
+Or start the archive fresh by deleting it, then run normally:
+
+```
+rm papers_archive.json
+python paper_bot.py
 ```
 
 ## Running on your own machine instead of GitHub

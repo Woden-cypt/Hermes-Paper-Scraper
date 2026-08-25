@@ -503,33 +503,36 @@ def main():
 
     log(f"\n{len(fresh)} new paper(s) to report.\n")
 
-    # Update the archive with everything we saw (even if capped from the digest).
-    for p in papers:
-        archive[p["id"]] = p
-    save_archive(archive)
-
-    if not fresh:
-        log("Nothing new. Not posting.")
-        # Still send a short 'quiet week' note on a real run so you know it ran.
-        if not args.dry_run:
-            webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
-            if webhook:
-                _discord_send(webhook, {"content":
-                    f"Weekly quantum papers digest: no new matches for "
-                    f"{cutoff.isoformat()} to {today.isoformat()}."})
-        return
-
+    # Dry run is a preview only. It must NOT write the archive, otherwise a
+    # later real run would treat these same papers as already seen.
     if args.dry_run:
-        print(format_text_digest(fresh, cutoff, today))
+        if fresh:
+            print(format_text_digest(fresh, cutoff, today))
+        else:
+            print(f"No new papers for {cutoff.isoformat()} to {today.isoformat()}.")
         return
 
+    # From here on it is a real run, so a webhook is required. Check it BEFORE
+    # touching the archive, so we never mark papers as seen without posting them.
     webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
     if not webhook:
         log("ERROR: DISCORD_WEBHOOK_URL is not set. Use --dry-run to preview, "
             "or set the webhook to post.")
         sys.exit(1)
-    post_to_discord(webhook, fresh, cutoff, today)
-    log("Posted to Discord.")
+
+    if not fresh:
+        log("Nothing new. Sending a short 'quiet week' note.")
+        _discord_send(webhook, {"content":
+            f"Weekly quantum papers digest: no new matches for "
+            f"{cutoff.isoformat()} to {today.isoformat()}."})
+    else:
+        post_to_discord(webhook, fresh, cutoff, today)
+        log("Posted to Discord.")
+
+    # Update the archive only after a successful real run.
+    for p in papers:
+        archive[p["id"]] = p
+    save_archive(archive)
 
 
 if __name__ == "__main__":

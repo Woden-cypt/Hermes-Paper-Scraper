@@ -1,0 +1,48 @@
+name: Weekly quantum papers digest
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many days back to look"
+        required: false
+        default: "8"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-bot
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run the bot
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python paper_bot.py --days "${{ github.event.inputs.days || '8' }}"
+
+      - name: Commit the updated archive
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain papers_archive.json)" ]; then
+            git add papers_archive.json
+            git commit -m "Update papers archive ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No archive changes to commit."
+          fi

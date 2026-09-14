@@ -1,7 +1,829 @@
 {
-  "updated": "2026-09-07T12:11:04.654966Z",
-  "count": 551,
+  "updated": "2026-09-14T12:29:41.568998Z",
+  "count": 607,
   "papers": [
+    {
+      "id": "doi:10.3389/frqst.2026.1865541",
+      "source": "Crossref (Frontiers in Quantum Science and Technology)",
+      "title": "Round-the-clock QKD over a free-space-fiber channel with passive polarization-basis compensation",
+      "authors": [
+        "Saumya Ranjan Behera",
+        "Melvee George",
+        "Urbasi Sinha"
+      ],
+      "abstract": "Quantum key distribution (QKD) enables information-theoretically secure communication by exploiting the quantum properties of single photons. Real-world deployment of QKD, however, requires reliable operation under uncontrolled environmental conditions where background illumination, atmospheric loss, coupling fluctuations, and polarization drift can significantly degrade performance. In this work, we experimentally demonstrate entanglement-based free-space QKD over an atmospheric channel with a passive, low-bandwidth polarization-correction strategy that avoids high-bandwidth real-time polarization tracking during the QKD acquisition. Using a 50-m free-space optical link implementing the BBM92 protocol, we compensate polarization scrambling arising from fiber birefringence and reference-frame misalignment by optimizing Bob’s measurement bases through quantum state tomography. QKD performance is evaluated across three 24-h acquisition campaigns spanning daylight and nighttime conditions, where high background noise, atmospheric fluctuations, and polarization drift pose significant challenges for secure key generation. By combining spectral, temporal, and spatial filtering with optimized coincidence-window selection, threshold-compatible average QKD performance is maintained across these acquisition campaigns. The optimized daylight key rate and QBER are ( 6.39 ± 0.81 k H z , 8.05 ± 1.48 % ) , while nighttime operation yields ( 6.98 ± 0.81 k H z , 8.25 ± 0.85 % ) . Under representative operating conditions with 8.3 % QBER, we obtain a final secure key rate of 351 H z after reconciliation and privacy amplification. To assess loss tolerance, we further emulate attenuation equivalent to a 1 k m free-space link using controlled attenuation, demonstrating approximately 6 k H z raw key rate under 30 % additional link loss. This attenuation study reproduces the additional loss budget only and does not constitute a physical kilometer-scale free-space demonstration. These results demonstrate that tomography-assisted measurement-basis correction can enable stable free-space entanglement-based QKD without high-bandwidth polarization tracking during key acquisition, providing a basis for future studies of more dynamic terrestrial and satellite-relevant quantum communication links.",
+      "url": "https://doi.org/10.3389/frqst.2026.1865541",
+      "date": "2026-09-14",
+      "topics": [
+        "QKD",
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.32604/cmes.2026.084050",
+      "source": "Crossref (Computer Modeling in Engineering &amp; Sciences)",
+      "title": "Security-Constrained Adaptive Control for Satellite QKD Systems under Feasibility-Aware Operation",
+      "authors": [
+        "Wibby Aldryani Astuti Praditasari",
+        "Hyejin Yoon",
+        "Seunghwan Yun",
+        "Changuk Jang",
+        "Okyeon Yi"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.32604/cmes.2026.084050",
+      "date": "2026-09-14",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1002/lpor.71895",
+      "source": "Crossref (Laser &amp; Photonics Reviews)",
+      "title": "Single‐Photon Emitters in β‐Ga <sub>2</sub> O <sub>3</sub> at Distinct Excitation Energies: Defect Origin and Photophysical Properties",
+      "authors": [
+        "Yiming Shi",
+        "Zhengchang Xia",
+        "Libin Zeng",
+        "Wenkang Liu",
+        "Xuhao Wang",
+        "Zhouxin Li",
+        "Ji Jiang",
+        "Zhigang Yin",
+        "Xingwang Zhang",
+        "Junhua Meng"
+      ],
+      "abstract": "ABSTRACT Room‐temperature single‐photon emission in beta‐phase gallium oxide (β‐Ga 2 O 3 ) extends the application scope of this ultra‐wide bandgap semiconductor beyond power electronics, opening up the possibility of using it as a quantum light source platform. However, the rich and complex defect landscape of β‐Ga 2 O 3 makes identifying the microscopic origins of these emitters a major challenge. Herein, by combining in situ confocal photoluminescence mapping, multi‐wavelength excitation, and first‐principles density functional theory calculations, we identify a new single‐photon emitter (SPE) excited by blue (405 nm) light. The 405 nm‐excited emitters exhibit high purity, excellent photostability, and a high Debye‐Waller factor. They originate from the neutral V GaI ‐V OI divacancy, which differs from the previously reported 532 nm‐excited one (V GaI ‐V OIII ). The two emitter types show largely non‐overlapping spatial distributions and different optical properties. Cross‐excitation cycles reveal that 405 nm illumination can partially bleach the 532 nm‐excited emitters via a photoionization process, while the reverse effect is much weaker. Our findings provide a clear defect origin for this new blue‐excited SPE in β‐Ga 2 O 3 and establish a multi‐wavelength strategy to discriminate distinct defect populations, paving the way for defect engineering in ultra‐wide‐bandgap semiconductor quantum photonics.",
+      "url": "https://doi.org/10.1002/lpor.71895",
+      "date": "2026-09-13",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.25163/bioinformatics.4110727",
+      "source": "Crossref (Bioinfo Chem)",
+      "title": "Quantum Computing in Molecular Science: Quantum Chemistry, Bioinformatics, and Machine Learning in the NISQ Era",
+      "authors": [],
+      "abstract": "Quantum computing is emerging as a transformative approach in bioinformatics and quantum chemistry, addressing fundamental computational limitations of classical methods in molecular science. Many biological and chemical systems are inherently governed by quantum mechanics, making accurate simulation with classical algorithms computationally expensive or infeasible. This review examines how quantum computing, particularly in the Noisy Intermediate-Scale Quantum (NISQ) era, is advancing molecular modeling, reaction dynamics, and bioinformatics applications. Key quantum algorithms, including the Variational Quantum Eigensolver (VQE) and Quantum Phase Estimation (QPE), demonstrate increasing capability in approximating molecular energies and simulating quantum systems. In parallel, applications in bioinformatics—such as protein folding, genomic search, and combinatorial optimization—highlight the potential of quantum computing to address complex biological problems. Quantum machine learning further extends these capabilities by integrating quantum algorithms with data-driven modeling. However, current progress is constrained by NISQ-era limitations, including noise, limited qubit counts, and scalability challenges. These constraints highlight the need for hybrid quantum–classical approaches and improved error mitigation strategies. Overall, quantum computing represents a complementary computational paradigm that can enhance classical methods in bioinformatics and chemistry. Continued advances in quantum algorithms, hardware, and hybrid modeling frameworks are expected to expand its role in molecular science and computational biology.",
+      "url": "https://doi.org/10.25163/bioinformatics.4110727",
+      "date": "2026-09-13",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41467-026-77221-9",
+      "source": "Crossref (Nature Communications)",
+      "title": "Robust biexciton preparation for entangled photon-pair generation by single-shot Floquet driving",
+      "authors": [
+        "Jun-Yong Yan",
+        "Paul C. A. Hagen",
+        "Hang-Yu Ge",
+        "Fang-Yuan Li",
+        "Hans-Georg Babin",
+        "Wei E. I. Sha",
+        "Bo Wang",
+        "Zhi-hua Gan",
+        "Andreas D. Wieck",
+        "Arne Ludwig",
+        "Chao-Yuan Jin",
+        "Vollrath M. Axt",
+        "Da-Wei Wang",
+        "Moritz Cygorek",
+        "Feng Liu"
+      ],
+      "abstract": "Abstract Quantum emitters driven by resonant two-photon excitation are a leading source for deterministically generated entangled photon pairs, essential for scalable photonic quantum technologies. However, conventional excitation schemes pose various constraints, limiting their scalability and practicability. Here, we demonstrate how biexciton preparation schemes with significantly improved robustness and reduced experimental demands can be identified using a novel design principle: ultrafast single-shot Floquet driving . This is achieved by employing two strongly and symmetrically detuned pulses, whose superposition generates a stroboscopic Hamiltonian that enables direct coupling between ground and biexciton states. Moreover, a pulse delay serves as a tuning knob, introducing an effective magnetic field making biexciton preparation particularly robust. Experimentally, we achieve a biexciton occupation exceeding 96% and preserve photon-pair entanglement with a fidelity of 93.4%. Our work opens avenues for the design of quantum control protocols with superior performance across diverse quantum emitters and qubit platforms.",
+      "url": "https://doi.org/10.1038/s41467-026-77221-9",
+      "date": "2026-09-12",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1117/1.ap.8.5.056009",
+      "source": "Crossref (Advanced Photonics)",
+      "title": "Nonlocal flat optics for motionless 3D critical dimension metrology",
+      "authors": [
+        "Xinyuan Xue",
+        "Shun Wen"
+      ],
+      "abstract": "As the scaling of modern nanoelectronics and integrated photonics pushes the physical limits of miniaturization, highly precise and noncontact optical metrology has become the cornerstone of advanced manufacturing. However, traditional techniques face a severe hardware bottleneck: acquiring richer physical data to ensure measurement precision relies on complex instruments that fundamentally limit throughput. Although broadband Mueller matrix polarimetry captures the highest possible information dimension for extracting complex topography, conventional setups are hindered by bulky spectrometers and slow mechanical polarization modulation. To circumvent this trade-off, we demonstrate a motionless critical dimension metrology framework powered by nonlocal flat optics. By fusing the angular-dependent phase delay of static quartz plates with the spatial dispersion of multilayer thin films, our architecture maps high-dimensional Mueller matrix polarization spectra directly into a single intensity snapshot—eliminating all moving parts. A physics-informed neural network then decodes this pattern to reconstruct the comprehensive optical spectra alongside critical 3D nanoscale topography, including film thickness, grating heights, and sidewall angles. Validated on SiO2 thin films and Si gratings, our reconstructions match commercial metrology and electron microscopy benchmarks. This radically simplified, motionless hardware framework offers a highly scalable pathway for in-line process monitoring in next-generation nanomanufacturing.",
+      "url": "https://doi.org/10.1117/1.ap.8.5.056009",
+      "date": "2026-09-12",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1117/1.ap.8.5.054001",
+      "source": "Crossref (Advanced Photonics)",
+      "title": "Diffractive optical neural networks for intelligent informatics: image processing, communications, and quantum applications",
+      "authors": [
+        "Yuchen Ma",
+        "Can Huang",
+        "Liangcai Cao",
+        "Guangwei Hu"
+      ],
+      "abstract": "Diffractive optical neural networks (DONNs) represent a physical computing paradigm that performs machine learning tasks by programming the propagation of light through a series of engineered diffractive layers. By harnessing the principles of diffraction, DONNs execute complex computations through a single pass of light propagation with massive parallelism and minimal power consumption, offering a compelling alternative to conventional electronic architectures. In this review, we summarize the fundamental principles of DONNs and examine their applications across key domains, ranging from optical image classification and high-dimensional imaging to communication-capacity expansion through multiplexing and emerging uses in quantum information processing. Finally, we discuss the main challenges for practical implementation of DONNs and outline possible future directions for a new generation of intelligent systems that compute with light.",
+      "url": "https://doi.org/10.1117/1.ap.8.5.054001",
+      "date": "2026-09-12",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.52756/ijeim.2026.v02.i03.002",
+      "source": "Crossref (International Journal of Engineering and Information Management)",
+      "title": "&lt;b&gt;Quantum Machine Learning: Bridging Quantum Computing and Artificial Intelligence for Future Data-Driven Technologies: A Comprehensive Review&lt;/b&gt;",
+      "authors": [
+        "Ankita Patra",
+        "Jitendra Patra",
+        "Prabhat Kumar Singh"
+      ],
+      "abstract": "There has been remarkable development in the data-driven decision-making domain of Artificial Intelligence (AI). However, the complexity of the AI models and the amount of data have shown some drawbacks with conventional computing models. One of the interdisciplinary branches of quantum computing and machine learning is Quantum Machine Learning (QML), which is a combination of quantum computing and machine learning and relies on the unique characteristics of quantum computing, such as superposition, entanglement, and quantum parallelism, to enhance the performance of the machines. This review provides a comprehensive description of theory, architectures, algorithms, implementational approaches, applications, problems, and future directions of QML. The core concepts of quantum computing and machine learning are introduced. Different representations of quantum states, quantum data encoding, variational quantum circuits, quantum kernel methods, and hybrid quantum or classical optimization are discussed. Significant QML algorithms like Quantum Support Vector Machines, Quantum Neural Networks, Variational Quantum Eigen solvers, Quantum Approximate Optimization Algorithms, and Quantum reinforcement learning are explored and evaluated for computational power and applications. The scaling up of quantum computer sizes, data encoding overhead, complexity of optimizations, benchmarking, and decoherence are discussed in detail, as well as recent developments in fault-tolerant quantum computing and hybrid learning approaches. Finally, a conceptual framework is given to demonstrate the unification of classical computation and quantum computation to intelligently process data. This review demonstrates how QML could be the next-generation computational method to accelerate scientific advancements and enable new advanced AI technologies.",
+      "url": "https://doi.org/10.52756/ijeim.2026.v02.i03.002",
+      "date": "2026-09-12",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.66073/researchfocus.v3i4.2643",
+      "source": "Crossref (Research Focus International Scientific Journal)",
+      "title": "BB84 KVANT KALITINI TAQSIMLASH PROTOKOLI",
+      "authors": [
+        "Kurbanova F.CH"
+      ],
+      "abstract": "This research paper presents the concepts of BB84 protocol, quantum elements in quantum technology. The BB84 protocol of quantum technology is analyzed.",
+      "url": "https://doi.org/10.66073/researchfocus.v3i4.2643",
+      "date": "2026-09-11",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1088/1402-4896/aea657",
+      "source": "Crossref (Physica Scripta)",
+      "title": "PUF-based quantum-assisted authentication and ESP-assisted session key establishment for V2G networks",
+      "authors": [
+        "Jin-Wang Zhao",
+        "Run-hua Shi",
+        "Can Wang",
+        "Zhi-Peng Wang"
+      ],
+      "abstract": "Abstract Vehicle-to-Grid (V2G) technology enables bidirectional communication and energy interaction between electric vehicles and the power grid. To ensure real-time response and secure communication, authentication protocols in V2G must provide privacy protection, maintain lightweight computation, and resist various malicious attacks. However, the advancement of quantum computing poses a significant threat to the security of classical cryptographic systems. Furthermore, as vehicles and charging piles are often exposed in&amp;#xD;public areas and may operate offline, the information stored within these devices requires robust physical protection.To address these challenges, this paper proposes a PUF-based quantum authentication and key agreement protocol for V2G scenarios, which deeply&amp;#xD;binds classical PUF responses with quantum gate transformation techniques to achieve an efficient joint verification mechanism. The protocol utilizes quantum channels as tamper-proof transmission media to provide secure verification for pre-shared PUF credentials. By fusing classical and quantum communication with hash functions, the proposed scheme achieves lightweight, anonymous, mutual, and dual-factor identity authentication alongside secure key agreement. This integration ensures both communication security and participant privacy. Security analysis and experimental results demonstrate that the proposed protocol is lightweight in edge-side classical computation. Under strict system assumptions, it can provide sufficient security and efficiency guarantees for the system, offering a valuable reference solution for V2G networks.",
+      "url": "https://doi.org/10.1088/1402-4896/aea657",
+      "date": "2026-09-11",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1103/f6l1-cdz7",
+      "source": "Crossref (PRX Quantum)",
+      "title": "Erratum: Faster quantum chemistry simulations on a quantum computer with improved tensor factorization and active volume compilation [PRX Quantum 6, 030337 (2025)]",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/f6l1-cdz7",
+      "date": "2026-09-11",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11128-026-05315-w",
+      "source": "Crossref (Quantum Information Processing)",
+      "title": "Quantum geometry and dynamics of two interacting spins: interplay with entanglement and quantum teleportation",
+      "authors": [
+        "Chaymae Boukacem",
+        "Mouhcine Yachi",
+        "Oussama Latifi",
+        "Brahim Amghar",
+        "Hamid Nebdi",
+        "Abdallah Slaoui"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1007/s11128-026-05315-w",
+      "date": "2026-09-11",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/1742-6596/3280/1/012026",
+      "source": "Crossref (Journal of Physics: Conference Series)",
+      "title": "Formal and informal approaches to quantum mechanics using quantum cryptography",
+      "authors": [
+        "Maria Bondani",
+        "Valentina De Renzi"
+      ],
+      "abstract": "Abstract Quantum technologies rely on superposition and entanglement, concepts that challenge classical physics and provide a rich context for teaching. In this paper, we report on a course for high school teachers that focused on quantum cryptography, one of the most mature quantum technologies. The course aims to provide teachers with an innovative approach to introducing quantum physics at the high-school level, showcasing quantum cryptography as a compelling example of how modern technology exploits fundamental principles of quantum theory. The course covers quantum mechanics, light polarization, and the BB84 quantum key distribution protocol through theoretical and experimental sessions by integrating formal and informal approaches exploiting lectures, online simulations (QuVis) and hands-on laboratory activities (using Thorlabs Quantum Cryptography Demonstration Kit). In addition, a card game, originally developed as a public outreach tool, was introduced to interactively perform the BB84 protocol. Feedback from teachers confirmed the feasibility of integrating these concepts into curricula to promote quantum literacy and engagement in secondary education.",
+      "url": "https://doi.org/10.1088/1742-6596/3280/1/012026",
+      "date": "2026-09-11",
+      "topics": [
+        "QKD",
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1002/sdtp.70003_354",
+      "source": "Crossref (SID Symposium Digest of Technical Papers)",
+      "title": "P‐5.8: Hardware‐Software Co‐Design of an Image Encryption Scheme Integrated with National Cryptography and Post‐Quantum Cryptography",
+      "authors": [
+        "Xiaobo Huang",
+        "Sijie Ran",
+        "Limin Yan"
+      ],
+      "abstract": "With the extensive use of image data in security‐sensitive scenarios, balancing security and real‐time transmission remains challenging. This paper proposes an end‐to‐end image encryption scheme integrating national cryptography with post‐quantum cryptography. For security, it employs end‐to‐end image encryption combined with a post‐quantum key encapsulation mechanism (KEM) and a unified key‐carrying method, improving resistance against statistical attacks and quantum threats. Experiments show that encrypted images achieve favorable statistical properties in information entropy, pixel correlation, and histogram distribution. For real‐time performance, hardware acceleration of core cryptographic operations under a hardware‐software co‐design architecture significantly reduces latency in encryption/decryption and key management, confirming the scheme's feasibility for both security and efficiency.",
+      "url": "https://doi.org/10.1002/sdtp.70003_354",
+      "date": "2026-09-11",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-026-62968-4",
+      "source": "Crossref (Scientific Reports)",
+      "title": "Performance analysis and deployment considerations of post-quantum cryptography for consumer Electronics",
+      "authors": [
+        "Daniel Commey",
+        "Benjamin Appiah",
+        "Griffith S. Klogo",
+        "Winful Bagyl-Bac",
+        "James D. Gadze",
+        "Yousef Alsenani",
+        "Garth V. Crosby"
+      ],
+      "abstract": "Abstract Quantum computing threatens the security foundations of consumer electronics (CE). Preparing CE systems for the post-quantum transition requires quantitative evidence on the performance of standardized and selected post-quantum cryptography (PQC). This paper presents a cross-platform performance analysis of PQC key encapsulation mechanisms (KEMs) and digital signature schemes against classical RSA/ECC baselines. We evaluate execution time and communication and storage overhead on two desktop-class reference platforms (macOS/M4 and Ubuntu/x86-64) and on a Raspberry Pi 4 platform used as a proxy for Linux-based gateway-class CE hubs and gateways. To establish a portable software baseline, the benchmark excludes vendor-specific hardware acceleration such as NEON and AVX. The results show that lattice-based schemes, especially ML-KEM and ML-DSA, provide a favorable measured combination of execution time and object size for gateway-class deployment. By contrast, Classic McEliece imposes large public-key sizes, while SPHINCS+ incurs large signatures despite its conservative hash-based design. Based on these measurements, we provide recommendations for gateway-class CE devices and identify open issues for deeper embedded platforms.",
+      "url": "https://doi.org/10.1038/s41598-026-62968-4",
+      "date": "2026-09-11",
+      "topics": [
+        "Quantum cryptography",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1002/adpr.70273",
+      "source": "Crossref (Advanced Photonics Research)",
+      "title": "Quantum Entangled Photon‐Pair Generation From van der Waals NbOI <sub>2</sub>",
+      "authors": [
+        "Shaohua Fu",
+        "Divyanshu Kumar",
+        "Xiaodong Yang",
+        "Jie Gao"
+      ],
+      "abstract": "The realization of quantum light sources is crucial for advancing quantum technologies. Two‐dimensional van der Waals (vdW) materials offer a compelling platform for ultracompact entangled photon‐pair sources due to their strong optical nonlinearities and relaxed phase‐matching constraints. Here, the generation of entangled photon pairs from vdW NbOI 2 flakes on Au film via spontaneous parametric down‐conversion (SPDC) process is demonstrated. The observed inverse relationship between second‐order correlation function and pump power and the linear relationship between coincidence rate and pump power confirm the characteristic features of SPDC process. Furthermore, the measured polarization‐dependent coincidence rate shows the anisotropic entangled photon‐pair emission in NbOI 2 crystal. The dependence of coincidence rate on flake thickness is characterized by considering both optical interference and the phase‐matching effects. The demonstrated results open new avenues for the development of on‐chip integrated quantum photonic devices for applications in quantum state engineering, quantum communication, and quantum information processing.",
+      "url": "https://doi.org/10.1002/adpr.70273",
+      "date": "2026-09-11",
+      "topics": [
+        "Quantum optics / photonics",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/1367-2630/aea639",
+      "source": "Crossref (New Journal of Physics)",
+      "title": "Single photon zeptosecond interferometry",
+      "authors": [
+        "Geoffrey R. Harrison",
+        "Tobias Saule",
+        "R. Esteban Goetz",
+        "George N Gibson",
+        "Camilo Andrés Granados Buitrago",
+        "Bikash Kumar Das",
+        "Marcelo Fabian Ciappina",
+        "Anh-Thu Le",
+        "Carlos Trallero"
+      ],
+      "abstract": "Abstract We demonstrate the generation of a train of attosecond XUV pulses that are in a superposition of wavefront states. Such superposition yields a high precision, self-referencing, common path XUV interferometer setup to produce pairs of spatially separated and independently controllable XUV pulses that are locked in phase and time with a temporal jitter of 3.5 zs (zs = zeptoseconds = 10^-21 s ). In our approach, we can independently control the relative phase/delay of the two optical beams with a resolution of 52 zs. Since the jitter is on the order of the Compton time scale τ C = λ C /m e c 2 , we explore the level of correlation between the non-local photons by comparing different spatial mode superpositions. Further, thanks to the stability of the interferometer we can retrieve the interference pattern through photon counting. Through post-selection of different particle events we can analyze one, two or more photon events. We argue that this zeptosecond level of temporal precision will open the door for new dynamical QED tests at lower intensities while photon counting experiments can also have an impact on the emerging field of quantum light in strong fields. We also discuss the potential impact on other areas, such as time-dependent QED, imaging, measurements of non-locality, and molecular quantum tomography.",
+      "url": "https://doi.org/10.1088/1367-2630/aea639",
+      "date": "2026-09-11",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1103/y779-t6ry",
+      "source": "Crossref (PRX Quantum)",
+      "title": "High-Dimensional Quantum Key Distribution via full Core-mode Encoding over Deployed Multicore Fibers",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/y779-t6ry",
+      "date": "2026-09-10",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.68104/ijasit.v1.i3.26",
+      "source": "Crossref (International Journal of Applied Smart Interdisciplinary Technologies)",
+      "title": "Hybrid Post-Quantum Cryptography and Quantum Key Distribution Co-Design for Quantum-Safe 6G, O-RAN, and IoT Infrastructure",
+      "authors": [
+        "Aagnik Chakraborty"
+      ],
+      "abstract": "Cryptographically relevant quantum computers do not yet exist, but the transition away from classical public-key cryptography is already underway: adversaries can record encrypted traffic today and decrypt it once a sufficiently capable quantum computer becomes available, a threat known as harvest-now, decrypt-later. This paper examines the engineering case for combining post-quantum cryptography (PQC) with quantum key distribution (QKD) as a strategy for securing next-generation communication infrastructure, focusing on 6G core and radio-access networks, Open RAN (O-RAN), and constrained Internet of Things (IoT) deployments. Rather than treating the two mechanisms as symmetric, interchangeable layers, the paper examines what each one actually guarantees, surveys the empirical evidence available for deployment cost, and describes where national security authorities and standards bodies disagree on the value of QKD. The architecture is grounded in the finalized National Institute of Standards and Technology (NIST) PQC standards and its 2025 hybrid key-establishment guidance, drawing on empirical Open RAN latency and energy measurements published during 2025 and 2026, embedded-hardware benchmarks for constrained devices, and the small number of quantum key distribution deployments operating at metropolitan or national backbone scale today. The paper is explicit about which figures are measured results and which remain illustrative proposals, and it closes by naming the specific standardization and field-trial gaps that separate current practice from the architecture it describes. The purpose of the work is to give network architects and policymakers a single, evidence-graded reference for deciding where each mechanism belongs in a real deployment, rather than treating post-quantum and quantum-distributed keying as equivalent options.",
+      "url": "https://doi.org/10.68104/ijasit.v1.i3.26",
+      "date": "2026-09-10",
+      "topics": [
+        "QKD",
+        "Quantum cryptography",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.22331/q-2026-09-10-2208",
+      "source": "Crossref (Quantum)",
+      "title": "Sparse quantum state preparation with improved Toffoli cost",
+      "authors": [
+        "Felix Rupprecht",
+        "Sabine Wölk"
+      ],
+      "abstract": "The preparation of quantum states is one of the most fundamental tasks in quantum computing, and a key primitive in many quantum algorithms. Of particular interest to areas such as quantum simulation and linear-system solvers are sparse quantum states, which contain only a small number s of non-zero computational basis states compared to a generic state. In this work, we present an approach that prepares s -sparse states on n qubits, reducing the number of Toffoli gates required compared to prior art. We work in the established framework of first preparing a dense state on a &amp;#x2308; log &amp;#x2061; ( s ) &amp;#x2309; -qubit sub-register, and then mapping this state to the target state via an isometry, with the latter step dominating the cost of the full algorithm. The speed-up is achieved by designing an efficient algorithm for finding and implementing the isometry. The worst-case Toffoli cost of our isometry circuit, which may be viewed as a batched version of an approach by Malvetti et al., is essentially 2 s for sufficiently large values of n , yielding roughly a log &amp;#x2061; ( s ) / 2 improvement factor over the state-of-the-art. In numerical benchmarks on randomly chosen states, the cost is closer to s . With the improved isometry circuit, we examine the dense-state preparation step and present ways to optimize the joint cost of both steps, particularly in the case of target states with purely real coefficients, by outsourcing some sub-tasks from the dense-state preparation to the isometry.",
+      "url": "https://doi.org/10.22331/q-2026-09-10-2208",
+      "date": "2026-09-10",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.22331/q-2026-09-10-2206",
+      "source": "Crossref (Quantum)",
+      "title": "Solving the Nonlinear Vlasov Equation on a Quantum Computer",
+      "authors": [
+        "Tamás Vaszary",
+        "Animesh Datta",
+        "Tom Goffrey",
+        "Brian Appelbe"
+      ],
+      "abstract": "The practical applicability of a recent Carleman-linearization-based quantum algorithm for solving ordinary differential equations (ODEs) with quadratic nonlinearities is investigated for the nonlinear electrostatic Vlasov equation with Krook-type collision operators. The equation is discretized on a (1+1)-dimensional phase-space grid and mapped onto the input of the quantum algorithm. Upper bounds for the query and gate complexities are derived in the limit of large grid sizes and found to be polynomially larger than the time complexity of the corresponding classical algorithms, primarily due to the dimension, sparsity, and norm of the Carleman-linearized evolution matrix. The convergence criteria are shown to impose severe restrictions on physically relevant plasma applications, requiring dissipation levels far exceeding those provided by the Krook operator.",
+      "url": "https://doi.org/10.22331/q-2026-09-10-2206",
+      "date": "2026-09-10",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.22331/q-2026-09-10-2207",
+      "source": "Crossref (Quantum)",
+      "title": "Streaming Belief Propagation on Mixed-Alphabet Tanner Graphs for Practical Quantum Memory",
+      "authors": [
+        "Kao-Yueh Kuo",
+        "Ching-Yi Lai"
+      ],
+      "abstract": "Reliable quantum memory under circuit-level noise requires decoders that can process syndrome information continuously and at a rate comparable to its generation. In practical quantum error correction (QEC), repeated syndrome measurements cause the number of potential error locations to grow rapidly with both code size and time. In this paper, we propose a streaming mixed-alphabet belief propagation (SM-BP) decoder. We construct a space-time Tanner graph across multiple rounds of syndrome extraction with mixed-alphabet error variables, preserving correlations arising from multi-qubit faults. Additionally, we propose an adaptive sliding window procedure that captures long error events across window boundaries and adjusts the decoding in real time. To enhance SM-BP, we introduce a technique of probabilistic error consolidation to mitigate degeneracy effects and short cycles. Our simulations demonstrate high error thresholds of 0.4% to 0.87% and strong error-floor performance for topological code families, including rotated toric, toric color, and twisted XZZX toric codes. These results show that SM-BP provides a practical decoding framework for continuous QEC under circuit-level noise.",
+      "url": "https://doi.org/10.22331/q-2026-09-10-2207",
+      "date": "2026-09-10",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.56201/ijmcs.v9.no3.2025.pg16.26",
+      "source": "Crossref (International Journal of Marketing and Communication Studies)",
+      "title": "Quantum Marketing: How Quantum Computing Can Transform Market Prediction and Customer Targeting",
+      "authors": [
+        "Olawale C. Olawore"
+      ],
+      "abstract": "This study investigates the prospective influence of quantum computing on marketing analytics. As the landscape of digital marketing continues to evolve, the need for more effective and precise analytical tools has surged to unprecedented levels. Marketing analytics, which is essential for assessing the success of campaigns, is undergoing significant changes driven by the increasing volume of data, the complexity of consumer interactions, and the urgent demand for immediate insights. Quantum computing, founded on the principles of quantum mechanics, is leading this transformation. Unlike classical computing, which depends on conventional bits, quantum computing employs quantum bits (qubits) that can exist in multiple states simultaneously, thus allowing for rapid data processing and the resolution of complex problems. This research delves into the theoretical applications of quantum computing within marketing analytics, concentrating on areas such as data processing, predictive modeling, and the development of personalized marketing strategies. It emphasizes the potential for better management of extensive datasets, improved predictive accuracy, real-time analytical capabilities, and a reimagining of marketing strategies. The prospects seem favorable, yet the study also highlights the challenges that arise from the early stage of quantum technology and the complexities of its integration. Although it is primarily theoretical, this research shows the considerable potential for transformation that quantum computing offers in marketing analytics, encouraging further exploration and experimentation in this field.",
+      "url": "https://doi.org/10.56201/ijmcs.v9.no3.2025.pg16.26",
+      "date": "2026-09-10",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1103/1b8r-r248",
+      "source": "Crossref (Physical Review Letters)",
+      "title": "High-rate measurement-device-independent quantum key distribution under intense noise",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/1b8r-r248",
+      "date": "2026-09-09",
+      "topics": [
+        "QKD",
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41534-026-01365-1",
+      "source": "Crossref (npj Quantum Information)",
+      "title": "Security risks of VOA-induced luminescence in chip-based quantum key distribution",
+      "authors": [
+        "Zijian Li",
+        "Chenyu Xu",
+        "Xin Hua",
+        "Yongqiang Du",
+        "Xin Liu",
+        "Tao Lin",
+        "Xi Xiao",
+        "Kejin Wei"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41534-026-01365-1",
+      "date": "2026-09-09",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.70917/ijcisim-2026-5587",
+      "source": "Crossref (International Journal of Computer Information Systems and Industrial Management Applications)",
+      "title": "Trends in Quantum Key Distribution Technologies: A Systematic Review of Protocols, Network Architectures, and Deployment Challenges",
+      "authors": [
+        "Anugraha Saji",
+        "Anju Pratap"
+      ],
+      "abstract": "The emergence of the Quantum computing technologies is imposing greater threats on the existing cryptographic algorithms that rely heavily on the mathematical problems, creating a growing demand for quantum safe Communication. Even though Quantum Key Distribution (QKD) is a theoretically proven secure key exchange method against quantum attacks, it also faces several deployment challenges like scalability, cost, and interoperability limitations. A systematic review was conducted to examine the recent advancements in QKD technologies by analyzing the peer reviewed studies Published between 2021 to 2025 and classified according to protocol design, network architecture and deployment readiness. The review analyzed articles for a Comparison of the recent advancements in the field of Twin Field QKD, Continuous Variable QKD, Hybrid classical quantum networks and long-distance secure communication systems. Furthermore, the review also examined the Conjunction of QKD with the emerging security applications of 5G Networks, IOT environments, edge computing, fog Computing and Multimedia security systems. Despite of the significant technological advancements, the deployment of QKD is still under the constraints of scalability, lower key generation rates, cost of deployment, Synchronization issues, stability complexities, interoperability problems and standardization issues. Through a comprehensive evaluation of QKD protocols and network architectures, this study highlights the critical research gaps and provides future directions for the practical deployment of the QKD enabled secure communication networks.",
+      "url": "https://doi.org/10.70917/ijcisim-2026-5587",
+      "date": "2026-09-09",
+      "topics": [
+        "QKD",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.7716/aem.v15i3.4199",
+      "source": "Crossref (Advanced Electromagnetics)",
+      "title": "Design and Implementation of Enterprise-oriented Quantum Key Injection Service Platform",
+      "authors": [
+        "Y. Zhuang",
+        "N. Lü",
+        "P. Z. Chen",
+        "X. B. Gong",
+        "H. Zheng",
+        "P. C. Chen"
+      ],
+      "abstract": "This paper focuses on the application requirements of enterprise-level quantum key injection services in the field of quantum secure communication. The article first introduces the development status of quantum key injection technology and its demand characteristics in enterprise application scenarios, points out the shortcomings of traditional individual user service models in enterprise-level applications such as low management efficiency, coarse permission control, and difficulties in multi-organization collaboration, and then proposes an architecture design and implementation method for enterprise-oriented quantum key injection service platform. The platform adopts multi-tenant architecture and three-terminal service mode to realize hierarchical management of enterprise customers, provincial company operators, and platform operators. Through mechanisms such as injection device authentication, refined permission control, and organizational structure linkage, it can effectively support the large-scale operation of enterprise-level quantum key injection business, providing reliable platform support for the promotion of quantum secure communication technology in enterprise-level application scenarios.",
+      "url": "https://doi.org/10.7716/aem.v15i3.4199",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.array.2026.101226",
+      "source": "Crossref (Array)",
+      "title": "The single-lattice problem: Monoculture risk in standardized post-quantum cryptography",
+      "authors": [
+        "Simon Baradziej"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.array.2026.101226",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1109/mcomstd.2026.3728320",
+      "source": "Crossref (IEEE Communications Standards Magazine)",
+      "title": "Securing Open Radio Access Network Midhaul Interface With Post-Quantum Cryptography",
+      "authors": [
+        "K. Majid",
+        "Luca Valcarenghi",
+        "Riccardo Bassoli",
+        "Frank H. P. Fitzek",
+        "Chandrashekar Jatoth",
+        "Koteswararao Kondepu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/mcomstd.2026.3728320",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1039/d6nr02656g",
+      "source": "Crossref (Nanoscale)",
+      "title": "Recent progress in room-temperature single-photon emission in quantum dots: the role of chirality and surface engineering",
+      "authors": [
+        "Sanuja Panda",
+        "Deepshikha Singh",
+        "Chayan Kanti Nandi"
+      ],
+      "abstract": "Single-photon emission (SPE) is an indispensable component of emerging quantum technologies, including quantum communication, computation, and sensing.",
+      "url": "https://doi.org/10.1039/d6nr02656g",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1117/1.jatis.12.4.041036",
+      "source": "Crossref (Journal of Astronomical Telescopes, Instruments, and Systems)",
+      "title": "Single-photon counting CMOS detectors for the Habitable Worlds Observatory",
+      "authors": [
+        "Edwin Alexani",
+        "Justin P. Gallagher"
+      ],
+      "abstract": "The Habitable Worlds Observatory (HWO) is NASA’s current New Great Observatory concept. HWO will observe the universe to search for life beyond Earth. It will need unprecedented instrument stability and detector performance. However, no single detector technology currently satisfies HWO’s demanding specifications. Complementary metal–oxide–semiconductor (CMOS) single-photon counting detectors (SPCDs) are excellent candidates for further development, as they already satisfy several specifications for HWO. We report the results of a characterization program for 9.4 Mpixel CMOS SPCDs. We measure a dark current of 0.0005 e−/s/pixel, a read noise of 0.19 e−/pixel, a peak quantum efficiency of 88% at 485 nm, negligible crosstalk and persistence, and we present conversion gain and linearity measurements. The detector satisfies several key HWO performance requirements, including deep sub-electron read noise and low dark current, whereas additional development is required in ultraviolet (UV) quantum efficiency and full mission qualification. We include a simulated low-flux observation using characterization results, along with a roadmap for developing CMOS SPCDs to satisfy HWO specifications, especially at UV wavelengths.",
+      "url": "https://doi.org/10.1117/1.jatis.12.4.041036",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.nuclcard.2026.102888",
+      "source": "Crossref (Journal of Nuclear Cardiology)",
+      "title": "The Movahed sign (D-Shape Left Ventricle Seen on Gated Single Photon Emission Computed Tomography (SPECT) Imaging as an Indicator for Right Ventricular Overload) is also valid in Magnetic Resonance Imaging (MRI) or Computed Tomography (CT)",
+      "authors": [
+        "Daniel McCoy",
+        "Mohammad Reza Movahed"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.nuclcard.2026.102888",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.70917/ijcisim-2026-5582",
+      "source": "Crossref (International Journal of Computer Information Systems and Industrial Management Applications)",
+      "title": "CSN Quantum Computing Processes in the Human Brain",
+      "authors": [
+        "Catalin Silviu Nutu"
+      ],
+      "abstract": "CSN stands for Catalin Silviu Nutu, and it is the acronym for the name of the author who has developed the theory related to the CSN Algorithm, such as presented in his previous work published so far. Current conventional and classical AI models today, mainly based on supervised and unsupervised learning, have almost reached their limits, and they are completely insufficient and totally inadequate to simulate and to model highly sophisticated and complicated brain processes involved in highly creative and extremely innovative brain processes. Based on the theory introduced, developed and presented by the author related to the CSN Algorithm and by introducing a new type of special matrix named CSN Matrix of Activations, this paper generates a quantum computing model named CSN Quantum Computing brain model. This paper expands on the latest work of the author presented in his last papers on this topic, namely “Decryption of Evolutionary Fractals by means of Procedural Randomness generated with an Intelligence Model based on the CSN Algorithm”, presented at the International Conference XR Salento 2025 in Otranto, Italy, and a subsequent paper entitled “Enhanced Intelligence Models based on the CSN Algorithm”, also published in 2025, in the International Journal of Computational Engineering Research (IJCER)",
+      "url": "https://doi.org/10.70917/ijcisim-2026-5582",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.71465/csb111",
+      "source": "Crossref (Computer Science Bulletin)",
+      "title": "ADVANCEMENTS IN QUANTUM COMPUTING: BRIDGING THE GAP BETWEEN THEORY AND PRACTICAL APPLICATION",
+      "authors": [
+        "Dr. Faisal Ahmed"
+      ],
+      "abstract": "Quantum computing has the potential to revolutionize the field of computation by providing solutions to problems that classical computers struggle to address. While the theoretical foundations of quantum mechanics have been established for over a century, its application in computing has only recently gained significant attention. This paper explores the recent advancements in quantum computing, particularly in the areas of quantum algorithms, hardware development, and quantum error correction. The goal is to examine how these developments are bridging the gap between theoretical concepts and practical applications, and how they may influence various industries, including cryptography, artificial intelligence, and optimization. The challenges of scalability, error rates, and qubit coherence are also discussed, alongside the progress made in overcoming these hurdles. The article presents a comprehensive overview of the current state of quantum computing and its promising future.",
+      "url": "https://doi.org/10.71465/csb111",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1504/ijict.2026.156257",
+      "source": "Crossref (International Journal of Information and Communication Technology)",
+      "title": "Quantum computing-driven portfolio optimisation framework for the intelligent economy",
+      "authors": [
+        "Leihua Ai"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1504/ijict.2026.156257",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s10462-026-11686-4",
+      "source": "Crossref (Artificial Intelligence Review)",
+      "title": "Quantum circuit-based learning models: bridging quantum computing and machine learning",
+      "authors": [
+        "Fan Fan",
+        "Yilei Shi",
+        "Mihai Datcu",
+        "Bertrand Le Saux",
+        "Luigi Iapichino",
+        "Francesca Bovolo",
+        "Silvia Liberata Ullo",
+        "Xiao Xiang Zhu"
+      ],
+      "abstract": "Abstract Machine Learning (ML) has been widely applied across numerous domains due to its ability to automatically identify informative patterns from data for various tasks. The availability of large-scale data and advanced computational power enables the development of sophisticated models and training strategies, leading to state-of-the-art performance, but it also introduces substantial challenges. Quantum Computing (QC), which exploits quantum mechanisms for computation, has attracted growing attention and significant global investment as it may address these challenges. Consequently, Quantum Machine Learning (QML), the integration of these two fields, has received increasing interest, with a notable rise in related studies in recent years. We are motivated to review these existing contributions regarding quantum circuit-based learning models for classical data analysis and highlight the identified potentials and challenges of this technique. Specifically, we focus not only on QML models, both kernel-based and neural network-based, but also on recent explorations of their integration with classical machine learning layers within hybrid frameworks. Moreover, we examine both theoretical analysis and empirical findings to better understand their capabilities, and we also discuss the efforts on noise-resilient and hardware-efficient QML that could enhance its practicality under current hardware limitations. In addition, we cover several emerging paradigms for advanced quantum circuit design and highlight the adaptability of QML across representative application domains. This study aims to provide an overview of the contributions made to bridge quantum computing and machine learning, offering insights and guidance to support its future development and pave the way for broader adoption in the coming years.",
+      "url": "https://doi.org/10.1007/s10462-026-11686-4",
+      "date": "2026-09-09",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41534-026-01363-3",
+      "source": "Crossref (npj Quantum Information)",
+      "title": "Satellite-to-ground quantum key distribution model under time-evolving turbulence",
+      "authors": [
+        "Hai-Yang Fu",
+        "Fang-Xiang Wang",
+        "Shuang Wang",
+        "Zhen-Qiang Yin",
+        "Wei Chen",
+        "Zheng-Fu Han"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1038/s41534-026-01363-3",
+      "date": "2026-09-08",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1364/oe.611598",
+      "source": "Crossref (Optics Express)",
+      "title": "Secret Key Rate Enhancement through Joint Precoding and Power Loading for Downstream CV-QKD over Passive Optical Networks",
+      "authors": [
+        "Yuan Liu",
+        "Calvin C. K. Chan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1364/oe.611598",
+      "date": "2026-09-08",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1364/oe.609802",
+      "source": "Crossref (Optics Express)",
+      "title": "Channel Estimation for ORIS-Assisted Non-Line-of-Sight CV-QKD Systems under Finite-Size Effects",
+      "authors": [
+        "Shengzhi Xu",
+        "Ming Li",
+        "Yuxin Shen",
+        "Nuerbiye Taiwaikuli",
+        "Huimin Chen",
+        "Tianyi Wang",
+        "Milorad Cvijetic",
+        "Ziwen Pan"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1364/oe.609802",
+      "date": "2026-09-08",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.3390/quantum8030092",
+      "source": "Crossref (Quantum Reports)",
+      "title": "Multi-Solution Ternary Grover’s Algorithm for Logic-Based Quantum Machine Learning with Pseudo-Kronecker Reed–Muller Form Minimization",
+      "authors": [
+        "Sophia Lee",
+        "Ali Al-Bayaty",
+        "Marek Perkowski"
+      ],
+      "abstract": "Optimization problems in machine-learning (ML) applications can be computationally challenging for classical methods, particularly when they involve large, unstructured search spaces. Quantum computing offers a promising approach to combinatorial optimization by utilizing quantum superposition and amplitude amplification. This paper presents a new methodology using logic-based quantum machine learning (QML) as a complete framework for employing a multi-solution ternary Grover’s algorithm to minimize incomplete binary functions represented by Pseudo-Kronecker Reed–Muller (PKRO) expansions, consistent with Occam’s razor principle. Unlike previous quantum approaches based on Kronecker Reed–Muller (KRO) or fixed-polarity Reed–Muller (FPRM) representations, our work introduces the first Grover-based optimization framework for PKRO forms. This framework formulates logic minimization as a quantum search problem to identify minimum-cost AND-XOR representations with the fewest nonzero coefficients. A hybrid binary–ternary quantum architecture is developed to explore the enlarged PKRO search space, enabling optimization of both completely and incompletely specified binary functions. Owing to the greater flexibility of PKRO expansions, our framework produces more compact AND–XOR representations than KRO- and FPRM-based approaches. Across all 256 3-variable binary functions, PKRO provides less nonzero coefficients for 4.688% of functions compared with KRO and for 37.5% compared with FPRM, with average reductions of 0.047 and 0.484 nonzero coefficients, respectively. Our multi-solution ternary Grover search reduces the number of Grover iterations by more than 91% compared with the single-solution approach.",
+      "url": "https://doi.org/10.3390/quantum8030092",
+      "date": "2026-09-08",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/2058-9565/aea43f",
+      "source": "Crossref (Quantum Science and Technology)",
+      "title": "Advantage of Warm Starts for Electron-Phonon Systems on Quantum Computers",
+      "authors": [
+        "Arnab Adhikary",
+        "Shawn Skelton",
+        "Alberto Nocera",
+        "Mona Berciu"
+      ],
+      "abstract": "Abstract Simulating electron-phonon interactions on quantum computers remains challenging, with most algorithmic effort focused on Hamiltonian simulation and circuit optimization. In this work, we study the single-electron Holstein model and propose an initial-state ansatz that substantially enhances ground-state overlap in the strong-coupling regime, thereby reducing the number of iterations required in standard quantum phase estimation. We further show that this ansatz can be implemented efficiently and yields an exponential reduction in overall circuit costs relative to conventional initial guesses. Our results highlight the practical value of incorporating physical intuition into initial state preparation for electron-phonon coupled systems.",
+      "url": "https://doi.org/10.1088/2058-9565/aea43f",
+      "date": "2026-09-08",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.26599/phys.2026.9320504",
+      "source": "Crossref (Physics and Engineering)",
+      "title": "QUANTUM SECURE DIRECT COMMUNICATION",
+      "authors": [
+        "Feihao ZHANG",
+        "Guilu LONG"
+      ],
+      "abstract": "Abstract Quantum secure direct communication is a quantum communication technology that uses quantum states as carriers to transmit information securely and directly, first proposed by a team at Tsinghua University in 2000. Quantum communication broadly refers to information transfer processing tasks accomplished through the transmission of quantum states, which can be categorized into three types based on the content transmitted: quantum key distribution for transmitting random numbers, quantum secure direct communication for transmitting classical information, and quantum teleportation for transmitting quantum information. After more than two decades of development, quantum secure direct communication has matured and entered practical application: a theoretical framework tailored for scenarios with high loss, high noise, and stringent security requirements has been established; experimental demonstrations of quantum direct communication in optical fibers and free space have been completed; three milestone systems for quantum secure direct communication at the metropolitan, intercity, and network levels have been built; and successful trials have been conducted in various scenarios such as 5G private networks and banking applications. Quantum secure direct communication offers multiple applications: it prevents information leakage by detecting eavesdropping, ensuring information security; identifies exposed locations by monitoring surveillance activities, providing technical support for preventing targeted eliminations and safeguarding commanders' personal safety; and detects intrusion and tampering behaviors, offering novel protection for cybersecurity. Currently, quantum direct communication has been incorporated into relevant planning documents in China, the European Union, and the United States, and is undergoing rapid development. This article briefly outlines the historical development, fundamental principles, research advancements, and future prospects of quantum direct communication.",
+      "url": "https://doi.org/10.26599/phys.2026.9320504",
+      "date": "2026-09-08",
+      "topics": [
+        "QKD",
+        "Quantum cryptography",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1108/dprg-05-2026-0296",
+      "source": "Crossref (Digital Policy, Regulation and Governance)",
+      "title": "Post-quantum cryptography transition governance in GCC banking: a regulatory readiness framework",
+      "authors": [
+        "Muez Osman"
+      ],
+      "abstract": "Purpose This paper aims to examines the governance of post-quantum cryptography (PQC) transition in Gulf Cooperation Council (GCC) banking, identifies structural gaps in existing regulatory frameworks and proposes a regulatory readiness framework for orderly migration to quantum-resistant standards. Design/methodology/approach A qualitative policy-analytical methodology combines structured literature synthesis with comparative regulatory analysis of six GCC banking frameworks – Saudi Arabian Monetary Authority, Central Bank of the UAE, Central Bank of Kuwait, Qatar Central Bank, Central Bank of Bahrainand Central Bank of Oman – against five PQC governance dimensions, stress-tested across three cryptographically relevant quantum computer timeline scenarios. Findings None of the six frameworks explicitly addresses PQC transition requirements and all show critical gaps in cryptographic agility, quantum threat timeline awareness and harvest-now-decrypt-later (HNDL) risk assessment. National Institute of Standards and Technology (US)’s PQC standards (Federal Information Processing Standard 203, 204, 205) supply the technical foundation but not the regulatory coordination and supervisory capacity GCC banking requires. Practical implications The framework gives GCC banking regulators actionable guidance for introducing HNDL risk assessment, mandating cryptographic agility and establishing PQC transition planning before migration becomes compressed and disruptive. Originality/value This is among the first systematic PQC governance analyses of GCC banking, best characterised as a theoretically grounded contextual adaptation rather than a new governance theory. The proposed three-phase framework – inventory, prioritised migration, continuous resilience – is framed through a socio-technical transition lens, translating generic quantum-risk identification into a governance architecture grounded in the six GCC supervisors’ regulatory landscape.",
+      "url": "https://doi.org/10.1108/dprg-05-2026-0296",
+      "date": "2026-09-08",
+      "topics": [
+        "Quantum cryptography",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1364/oe.606003",
+      "source": "Crossref (Optics Express)",
+      "title": "Enhancing the Imaging Performance of Single-Photon Array Detection through Freeform-Surface-Based Light Field Modulation",
+      "authors": [
+        "Weihao Shen",
+        "Zhiyuan Zhao",
+        "Haotong Ma",
+        "Shengyu Liu",
+        "Wuqiang Xu",
+        "Yingben Song",
+        "Yanda Gu",
+        "hu yang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1364/oe.606003",
+      "date": "2026-09-08",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1364/optica.609872",
+      "source": "Crossref (Optica)",
+      "title": "Single-photon dynamics of a telecom-band quantum dot emitter integrated with a double solid immersion lens",
+      "authors": [
+        "Daehyun Ahn",
+        "Ivan Burenkov",
+        "Lijun Ma",
+        "Young-Ho Ko",
+        "Yudong Jang",
+        "Ranbir Kaur",
+        "Donghan Lee",
+        "Mohamed Benyoucef",
+        "Sergey Polyakov"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1364/optica.609872",
+      "date": "2026-09-08",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.nuclcard.2026.102970",
+      "source": "Crossref (Journal of Nuclear Cardiology)",
+      "title": "2026 ASNC guideline for stress testing in single-photon emission computed tomography (SPECT) and positron emission tomography (PET) myocardial perfusion imaging",
+      "authors": [
+        "W. Lane Duvall",
+        "Hicham Skali",
+        "Niti R. Aggarwal",
+        "Kevin Emery Boczar",
+        "Dennis A. Calnon",
+        "Panithaya Chareonthaitawee",
+        "Rami Doukky",
+        "Andrew J. Einstein",
+        "Fadi G. Hage",
+        "Erika Hutt",
+        "Saurabh Malhotra",
+        "Sean R. McMahon",
+        "Lawrence M. Phillips",
+        "Viviany R. Taqueti",
+        "Siddharth J. Trivedi",
+        "Hein J. Verberne",
+        "Milena J. Henzlova"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.nuclcard.2026.102970",
+      "date": "2026-09-08",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1364/optica.607627",
+      "source": "Crossref (Optica)",
+      "title": "Experimental simulation of non-equilibrium quantum piston on a programmable photonic quantum computer",
+      "authors": [
+        "Rohan Yadgrikar",
+        "Govind Krishna",
+        "BALAKRISHNAN KRISHNAKUMAR",
+        "Andrea Cataldo",
+        "ZE-SHENG Xu",
+        "Niels Los",
+        "Val Zwiller",
+        "Jun Gao",
+        "Ali Elshaari"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1364/optica.607627",
+      "date": "2026-09-08",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
     {
       "id": "doi:10.3389/frcmn.2026.1929455",
       "source": "Crossref (Frontiers in Communications and Networks)",
@@ -151,6 +973,173 @@
       "date": "2026-09-07",
       "topics": [
         "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.3390/info17090861",
+      "source": "Crossref (Information)",
+      "title": "Phase-Aware Multidimensional Reconciliation for Continuous-Variable Quantum Key Distribution",
+      "authors": [
+        "Yanling Liang",
+        "Jisheng Dai",
+        "Han Hai",
+        "Xue-Qin Jiang"
+      ],
+      "abstract": "Continuous-variable quantum key distribution (CV-QKD) relies on efficient information reconciliation to establish identical secret key sequences from correlated modulation data and measurement outcomes. Accurate quadrature measurements are essential for reliable reconciliation, but residual phase mismatch between the signal and local oscillator distorts these measurements in coherent receivers and degrades decoding performance. To improve robustness against residual phase mismatch in homodyne-based CV-QKD, we propose a phase-aware multidimensional reconciliation method that jointly performs syndrome-based low-density parity-check (LDPC) decoding and expectation-maximization-based residual-phase refinement. We derive a discrete-time detection model that explicitly incorporates the receiver’s pulse-dependent quadrature-selection phase and construct phase-dependent virtual observations through multidimensional orthogonal mapping. The LDPC decoder provides posterior information for calculating the posterior spherical-symbol moments used in residual-phase refinement, while the refined phase is fed back to update the virtual observations and decoding likelihoods for the next iteration. Numerical results show that the proposed method achieves a lower residual-phase-estimation RMSE than disclosure-based cross-correlation estimation, BER and FER close to those under perfect phase compensation, and a higher finite-size secret key rate.",
+      "url": "https://doi.org/10.3390/info17090861",
+      "date": "2026-09-07",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.3390/quantum8030091",
+      "source": "Crossref (Quantum Reports)",
+      "title": "EDDE-MT-Based Detection-Record Integrity and DV-QKD with Side-Channel Monitoring Using DVQMTC and E-TeLU-Bi-LSTM for Securing CPS",
+      "authors": [
+        "Vidhya Prakash Rajendran",
+        "Deepalakshmi Perumalsamy",
+        "Chinnasamy Ponnusamy",
+        "Ezhil Kalaimannan"
+      ],
+      "abstract": "Discrete-Variable Quantum Key Distribution (DV-QKD) provides a mechanism for establishing secret keys between legitimate parties using quantum-state transmission and authenticated classical post-processing. In this work, the underlying quantum layer follows a biased-basis decoy-state BB84 model using phase-randomized weak coherent pulses, while additional implementation-level mechanisms are integrated to support Cyber-Physical System (CPS) communication. Exponential Double Delta Encoding-based Merkle Tree (EDDE-MT) is employed as a receiver-side detection-record integrity mechanism for detecting deletion, insertion, reordering, or modification of records relative to an authenticated committed detection-event batch. It does not establish the completeness of the original TCSPC acquisition, detect records omitted before commitment, detect physical photon loss, or increase the information-theoretic secrecy of the QKD key. Time-Correlated Single Photon Counting (TCSPC) is used for detection-event and timing acquisition, while 2’s Complement Cyclic Redundancy Check-based Low-Density Parity Check (2CCRC-LDPC) supports error reconciliation. Following privacy amplification, the legitimate parties retain matching copies of the distilled QKD key locally. Discrete Variable Quantum Mellin Transform Cryptography (DVQMTC) uses fresh, non-reused segments of this privacy-amplified key for application-layer payload protection; the Mellin-transform component is treated only as implementation-level preprocessing and not as a cryptographic key-generation mechanism. Side-channel monitoring is performed using Gini Cramer’s V Correlation-Stationary Wavelet Transform (GCVC-SWT), Helical Valley-Principal Component Analysis (HV-PCA), and an Entmax-based hyperbolic Tangent exponential Linear Unit-Bidirectional Long Short-Term Memory (E-TeLU-Bi-LSTM) classifier. On the AES-HD benchmark, E-TeLU-Bi-LSTM achieved 99.24% classification accuracy; this value represents benchmark-level classification performance and is not interpreted as experimental validation of physical side-channel protection in a deployed DV-QKD system. Frequency Division Multiple Access (FDMA) and the Halton Quasi-Sequence-Invasive Weed Optimization Algorithm (HQS-IWOA) are further incorporated as classical network-resource segmentation and load-management mechanisms and do not modify the composable QKD security bound. The contribution of the work is therefore positioned as a system-level engineering integration of QKD key establishment, detection-record integrity, reconciliation, application-layer data protection, side-channel monitoring, and network-resource management for CPS. The information-theoretic secrecy claim remains restricted to the underlying finite-key decoy-state BB84 procedure under the stated security assumptions; no new QKD security theorem, formally new cryptographic primitive, or experimentally validated physical quantum communication capability is claimed.",
+      "url": "https://doi.org/10.3390/quantum8030091",
+      "date": "2026-09-07",
+      "topics": [
+        "QKD",
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.3390/computation14090207",
+      "source": "Crossref (Computation)",
+      "title": "A Simulation-Based Quantum-Synchronized Ephemeral Encryption Framework for QKD-Secured IoT Networks with Transformer-Based Cyber-Quantum Attack Detection",
+      "authors": [
+        "Mohammad Sameer Aloun",
+        "Ala Mughaid",
+        "Bashar S. Khassawneh",
+        "Mahmoud AlJamal"
+      ],
+      "abstract": "This paper presents a simulation-based cyber-quantum Internet of Things (IoT) security framework for modeling, securing, and detecting attacks in QKD-secured IoT communication environments. The proposed framework integrates heterogeneous IoT traffic generation, gateway-assisted routing, edge processing, QKD key-pool management, Quantum-Synchronized Ephemeral Encryption (Q-SEE), cross-layer adversarial attack injection, and AI-based multiclass detection. Unlike conventional IoT intrusion datasets that mainly capture packet- or flow-level abnormalities, the generated dataset represents the joint behavior of IoT sessions, network delay, queue pressure, QKD state, key consumption, encryption-mode transitions, ciphertext metadata, and cyber-quantum risk. A Python/SimPy/NetworkX simulation was developed using 80 IoT devices, 3 gateways, 2 edge servers, 4 cyber-quantum control-plane nodes, and 1 adversarial orchestrator. The final simulation produced 46,351 records with 76 features covering normal traffic, five traditional IoT attacks, and six novel cyber-quantum attacks, including QKD key-pool starvation, QBER camouflage, false QKD-health injection, encryption downgrade induction, queue–key coupling, and multi-vector cyber-quantum orchestration. Q-SEE adaptively selects among QKD-OTP, QKD-synchronized AES-256 ephemeral mode, PQC fallback, degraded mode, and blocked mode according to QBER, secret key rate, key availability, device criticality, downgrade pressure, and risk. A leakage-aware Quantum-Aware Kolmogorov–Arnold Network (QKAN) was then trained using deployable cyber-quantum evidence. The final nonrisk QKAN achieved 98.79% test accuracy, 98.61% macro-F1, 98.85% weighted-F1, and 99.78% macro-AUC, demonstrating effective detection of traditional and cyber-quantum IoT attacks.",
+      "url": "https://doi.org/10.3390/computation14090207",
+      "date": "2026-09-07",
+      "topics": [
+        "QKD",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.3390/info17090862",
+      "source": "Crossref (Information)",
+      "title": "FM3H-MH: An Efficient Large-Scale Privacy Amplification Scheme for Quantum Key Distribution",
+      "authors": [
+        "Qiankun Li",
+        "Enjian Bai",
+        "Yun Wu",
+        "Han Hai",
+        "Yuwen Cao"
+      ],
+      "abstract": "Privacy amplification (PA) is a critical process in quantum key distribution (QKD) systems, essential for eliminating information leakage to eavesdroppers and extracting unconditionally secure keys. In practical high-speed QKD systems, a large input size enables the PA scheme to approach the asymptotic limit of the secure-key rate. Concurrently, the throughput of the PA scheme must keep pace with the GHz-level clock rates of modern QKD systems to prevent it from becoming a systemic bottleneck. To globally optimize these objectives, this paper proposes a scalable and highly efficient PA scheme combining a novel δ-almost-universal hash family (FM3H) with modular arithmetic hashing (MH), and proves the security of this hybrid scheme, within the information-theoretic and quantum-side framework. The proposed scheme achieves a throughput of 283 Mbps on a common mobile CPU with an input size of 1010 bits. NIST statistical tests and avalanche-effect measurements are reported as characterizations of the statistical properties of the output sequences. To our knowledge, this work presents the first FPGA-based implementation of a modular hashing-based PA scheme, thereby breaking the dependence of modular hashing schemes on general software platforms. In DV-QKD systems, the FPGA-based scheme achieves a throughput of 1.706 Gbps while maintaining low resource overhead.",
+      "url": "https://doi.org/10.3390/info17090862",
+      "date": "2026-09-07",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11036-026-02533-5",
+      "source": "Crossref (Mobile Networks and Applications)",
+      "title": "Multi-Criteria Routing for Cryptographic Key Exchange in QKD Networks: Survey, Taxonomy, and a Conceptual Optimization Framework",
+      "authors": [
+        "Ivan Cvitić",
+        "Dragan Peraković",
+        "Armando Nolasco Pinto"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1007/s11036-026-02533-5",
+      "date": "2026-09-07",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.3367/ufnr.2026.08.040188",
+      "source": "Crossref (Uspekhi Fizicheskih Nauk)",
+      "title": "Relativistic quantum key distribution between stationary objects based on coherent states",
+      "authors": [
+        "Sergei P. Kulik",
+        "Sergei N. Molotkov"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.3367/ufnr.2026.08.040188",
+      "date": "2026-09-07",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.physleta.2026.132160",
+      "source": "Crossref (Physics Letters A)",
+      "title": "Polarization-Encoded BB84 over a 56 dB Loss Channel using Superconducting Nanostrip Single-Photon Detectors",
+      "authors": [
+        "Ciro Bruscino",
+        "Martina Peluso",
+        "Francesco Santagiustina",
+        "Pasquale Ercolano",
+        "Marco Venturini",
+        "Diego Scarano",
+        "Luca Calderaro",
+        "Alberto Porzio",
+        "Daniela Salvoni",
+        "Chengjun Zhang",
+        "Hao Li",
+        "Simone Capeleto",
+        "Lixing You",
+        "Giuseppe Vallone",
+        "Loredana Parlato",
+        "Giovanni Piero Pepe"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.physleta.2026.132160",
+      "date": "2026-09-07",
+      "topics": [
+        "QKD",
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.64388/irev10i3-1722795",
+      "source": "Crossref (Iconic Research and Engineering Journals)",
+      "title": "Performance Evaluation of Post-Quantum Cryptography in Satellite Security Architecture",
+      "authors": [
+        "Nancy Bako Madugu",
+        "Fauziya Bawa Ibrahim",
+        "Fatimah Ahmed Almakura",
+        "Paul Ayambe Ndik",
+        "Zulaihat Mukhtar"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.64388/irev10i3-1722795",
+      "date": "2026-09-07",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1088/1402-4896/aea391",
+      "source": "Crossref (Physica Scripta)",
+      "title": "Reconfigurable resonant photon blockade via photon-pair exchange",
+      "authors": [
+        "Hongyu. Lin",
+        "Feng Gao",
+        "Jiacheng Chu",
+        "Xun Chen"
+      ],
+      "abstract": "Abstract Photon blockade in weakly nonlinear resonators is often limited by a trade-off among antibunching, resonant excitation, and tunability. We consider a driven two-mode bosonic system coupled by photon-pair exchange. The exchange interaction vanishes in the one-photon manifold but couples the target and auxiliary two-photon states. Destructive interference can therefore suppress the leading target two-photon amplitude without detuning the target mode. In the weak-drive limit, we derive the required drive-amplitude ratio and relative phase, together with the leading correction due to an auxiliary-mode Kerr shift. Steady-state master-equation calculations confirm the analytical condition and quantify the effects of finite drive, loss asymmetry, pair mismatch, residual nonlinearities, single-photon hopping, dephasing, phase fluctuations, and thermal occupation. Under the stated matched linewidth, coherent-drive, and nonlinear-resource convention, the resonant pair-exchange scheme yields a target single-photon population approximately $9.5$ times that of an optimized canonical Kerr-UPB benchmark at $g_a^{(2)}(0)\\le10^{-2}$. A normalized post-fabrication recovery test further shows that external-drive recalibration restores the interference minimum across the sampled uncertainty window. These results support photon-pair exchange as a controllable route to continuous-wave resonant antibunched emission.",
+      "url": "https://doi.org/10.1088/1402-4896/aea391",
+      "date": "2026-09-07",
+      "topics": [
+        "Quantum optics / photonics"
       ]
     },
     {

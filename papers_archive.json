@@ -1,7 +1,850 @@
 {
-  "updated": "2026-09-14T12:29:41.568998Z",
-  "count": 607,
+  "updated": "2026-09-21T12:33:56.401692Z",
+  "count": 659,
   "papers": [
+    {
+      "id": "doi:10.1155/que2/2148816",
+      "source": "Crossref (Quantum Engineering)",
+      "title": "Radio Signal Classification by Adversarially Robust Quantum Machine Learning",
+      "authors": [
+        "Yanqiu Wu",
+        "Eromanga Adermann",
+        "Chandra Thapa",
+        "Seyit Camtepe",
+        "Hajime Suzuki",
+        "Muhammad Usman"
+      ],
+      "abstract": "Radio signal classification plays a pivotal role in identifying the modulation scheme used in received radio signals, which is essential for demodulation and the proper interpretation of the transmitted information. Researchers have underscored the high susceptibility of machine learning (ML) algorithms for radio signal classification to adversarial attacks. Such vulnerability can result in severe consequences, including the misinterpretation of critical messages, the interception of classified information, or the disruption of communication channels. Recent advancements in quantum computing have revolutionized theories and implementations of computation, leading to the unprecedented development of quantum machine learning (QML). It has been shown that quantum variational circuits (QVCs) provide notably enhanced robustness against classical adversarial attacks in image classification. However, no research has yet explored whether QML can similarly mitigate adversarial threats in the context of radio signal classification. This work applies QVCs to radio signal classification and investigates their robustness to various adversarial attacks. We also propose the novel application of the approximate amplitude encoding (AAE) technique to efficiently encode radio signal data. Our extensive simulation results show that attacks generated on QVCs transfer well to convolutional neural network (CNN) models, indicating that these adversarial examples can fool neural networks that they are not explicitly designed to attack. However, the converse is not true: QVCs largely resist attacks generated on CNNs. Overall, through comprehensive simulations, our results shed new light on the growing field of QML by bridging knowledge gaps in QML for radio signal classification and revealing the advantages of applying QML methods in practical applications.",
+      "url": "https://doi.org/10.1155/que2/2148816",
+      "date": "2026-09-21",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11265-026-02019-3",
+      "source": "Crossref (Journal of Signal Processing Systems)",
+      "title": "Time-resolved Single-photon Counting IC for Flash Raman Imaging and Single-point Depth Imaging",
+      "authors": [
+        "Leeladhar Bodu",
+        "Tuomo Talala",
+        "Jan Nissinen",
+        "Ilkka Nissinen"
+      ],
+      "abstract": "Abstract The work presents the design and post-layout simulations of a 260 × 8 time-resolved single-photon counting (TRSPC) CMOS Single Photon Avalanche Diode (SPAD) sensor, currently under fabrication, with integrated 68 ps-resolution, 2.1 ns dynamic-range time-to-digital converters (TDC). The sensor supports multi-point flash Raman imaging and single-point depth imaging (SPDI). In multi-point mode, spatial information from ten sample locations is mapped into the time-domain using optical fibers of incrementally increasing lengths, each adding an additional 30 ns delay. By resolving these ten time windows on-chip, the sensor allows the entire SPAD array to be reused across all measurement points without sacrificing sensor area. In SPDI mode, a 68 ps time window is digitally selected and photon hits are accumulated within that window. The window is then shifted to the next 68 ps bin to perform digital depth sweeping. Delay elements are stabilized by a Delay Locked Loop (DLL) to maintain consistent timing over process, voltage, and temperature variations. Post-layout simulations validate SPDI functionality, characterize the timing performance of 68 ps and 1.4 ns delay elements, D flip-flop (DFF) behavior in the setup/hold violation region, and assess delay variation in the buffer-tree. The DFF analysis shows a 2.45 ps standard deviation in Cumulative Distribution Function (CDF) -derived timing error, while buffer-tree delay differences from middle to extreme channels range from 8.5–19.2 ps. The integrated TDCs enable digital time gating to reduce fluorescence and improve SNR. Overall, the sensor supports 10-point simultaneous measurement and digital depth sweeping with full-array reuse, while being scalable to larger arrays for real-time Raman imaging.",
+      "url": "https://doi.org/10.1007/s11265-026-02019-3",
+      "date": "2026-09-21",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.optcom.2026.133763",
+      "source": "Crossref (Optics Communications)",
+      "title": "Modeling and Optimizing the Characterization of Single Photon Avalanche Diode Using Machine Learning Framework with Genetic Algorithm Backpropagation",
+      "authors": [
+        "Zhixiang Cao",
+        "Yujie Liu",
+        "Yuxuan Yang",
+        "Zhuolin Ma",
+        "Haoxiang Li",
+        "Xiangliang Jin"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1016/j.optcom.2026.133763",
+      "date": "2026-09-21",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.22331/q-2026-09-21-2212",
+      "source": "Crossref (Quantum)",
+      "title": "Heuristic and Optimal Synthesis of CNOT and Clifford Circuits",
+      "authors": [
+        "Mark Webster",
+        "Stergios Koutsioumpas",
+        "Dan E Browne"
+      ],
+      "abstract": "Efficiently implementing Clifford circuits is crucial for quantum error correction and quantum algorithms. Linear reversible circuits, equivalent to circuits composed of CNOT\\xspace gates, have important applications in classical computing. In this work we present methods for CNOT\\xspace and general Clifford circuit synthesis which can be used to minimise either the entangling two-qubit gate count or the circuit depth. We present three families of algorithms - optimal synthesis which works on small circuits, A* synthesis for intermediate-size circuits and greedy synthesis for large circuits. We benchmark against existing methods, including rustiq, tket and qiskit and show that our approach results in circuits with lower two-qubit gate count. For encoding circuits, our methods outperform previous reinforcement learning results and find a lower two-qubit gate count circuit for the Golay code than previously known. The algorithms have been implemented in a GitHub repository for use by the classical and quantum computing community.",
+      "url": "https://doi.org/10.22331/q-2026-09-21-2212",
+      "date": "2026-09-21",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.63125/8pwsg720",
+      "source": "Crossref (American Journal of Advanced Technology and Engineering Solutions)",
+      "title": "AI-Driven Quantum-Resistant Security Framework for Accelerating the Migration of U.S. Cloud and IOT Systems to NIST Post-Quantum Cryptography Standards",
+      "authors": [
+        "Shaikat Biswas"
+      ],
+      "abstract": "The accelerating development of quantum computing creates substantial cybersecurity challenges for cloud and Internet of Things (IoT) environments that continue to depend on quantum-vulnerable public-key cryptography. This study developed and quantitatively evaluated an AI-driven quantum-resistant security framework for accelerating the migration of U.S. cloud and IoT systems toward National Institute of Standards and Technology (NIST) post-quantum cryptography (PQC) standards. The final analytical environment included 52 organizations, 164 cloud environments, 18,764 IoT devices, and 139,684 retained cryptographic assets, with 98.7% data completeness and 97.9% inventory-validation accuracy. Among retained assets, 62.1% contained quantum-vulnerable dependencies, including 34.6% associated with RSA, 20.0% with elliptic-curve cryptography, and 7.5% with Diffie–Hellman, while 63.2% of certificates remained quantum vulnerable. AI-assisted cryptographic discovery achieved 97.4% asset coverage and 97.9% vulnerability-detection sensitivity while reducing assessment time by 87.8%. XGBoost achieved the strongest quantum-risk classification performance, with 97.6% accuracy, 97.5% F1-score, 0.994 ROC-AUC, and 0.992 PR-AUC. Experimental evaluation of ML-KEM, ML-DSA, and SLH-DSA showed that pure PQC increased cloud secure-session latency by 23.8% and reduced throughput by 10.0%, whereas hybrid configurations increased latency by 39.5% and reduced throughput by 15.6%. AI-assisted migration increased implementation success from 84.6% to 97.1%, reduced remediation time by 60.2%, increased migration throughput by 151.1%, and reduced unresolved quantum-vulnerable exposure from 15.4% to 2.9%. High-security-maturity organizations achieved 98.8% implementation success compared with 87.8% among low-maturity organizations. Validation confirmed strong generalizability, with XGBoost achieving 97.1% cross-validation accuracy, 96.9% independent holdout accuracy, and 95.9% temporal-validation accuracy. Overall, the findings demonstrated that integrating AI-assisted cryptographic discovery, quantum-risk classification, migration prioritization, PQC performance assessment, cryptographic agility, interoperability testing, and organizational readiness provided a robust quantitative framework for strengthening post-quantum security across heterogeneous U.S. cloud and IoT infrastructures.",
+      "url": "https://doi.org/10.63125/8pwsg720",
+      "date": "2026-09-20",
+      "topics": [
+        "Quantum cryptography",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.3724/j.issn.1000-3045.2026z104082",
+      "source": "Crossref (Bulletin of Chinese Academy of Sciences)",
+      "title": "Series of Single-Photon Detectors",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.3724/j.issn.1000-3045.2026z104082",
+      "date": "2026-09-20",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.3724/j.issn.1000-3045.2026z104061",
+      "source": "Crossref (Bulletin of Chinese Academy of Sciences)",
+      "title": "Superconducting Nanowire Single Photon Detection System",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.3724/j.issn.1000-3045.2026z104061",
+      "date": "2026-09-20",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1021/acs.nanolett.6c03011",
+      "source": "Crossref (Nano Letters)",
+      "title": "Narrow-Line-Width Room-Temperature Single-Photon Emission from Multinary Copper-Based Quantum Dots",
+      "authors": [
+        "Lei Hou",
+        "Jian Huang",
+        "Haoran Chen",
+        "Chenghui Xia",
+        "Yi Liu"
+      ],
+      "abstract": "Abstract Colloidal quantum dots are promising scalable quantum light sources, yet leading systems typically rely on toxic heavy metals and often exhibit spectral instability and photoluminescence intermittency. Here, we demonstrate room-temperature single-photon emission from individual Ga-doped multinary CuInS2/ZnS core–shell quantum dots, a cadmium-free alternative with low toxicity and tunable emission. Hanbury Brown–Twiss measurements show pronounced photon antibunching with a minimum g2(0) of 0.06, corresponding to a single-photon purity of 94%. The emitters also exhibit a remarkably narrow emission line width of 35 meV and strongly suppressed blinking, remaining predominantly in a bright state under low excitation. Combining single-particle spectroscopy with phasor-based lifetime analysis directly resolves emissive-state dynamics without multiexponential fitting, revealing competing radiative and nonradiative pathways involving charged excitons and Auger-assisted recombination. These results establish multinary CuInS2/ZnS quantum dots as environmentally benign colloidal quantum emitters for scalable room-temperature quantum photonic technologies.",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c03011",
+      "date": "2026-09-19",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1145/3846519",
+      "source": "Crossref (ACM Transactions on Quantum Computing)",
+      "title": "AC/DC: Automated Compilation for Dynamic Circuits",
+      "authors": [
+        "Siyuan Niu",
+        "Efekan Kökcü",
+        "Anupam Mitra",
+        "Aaron Szasz",
+        "Akel Hashim",
+        "Justin Kalloor",
+        "Wibe de Jong",
+        "Costin Iancu",
+        "Ed Younis"
+      ],
+      "abstract": "Dynamic quantum circuits incorporate mid-circuit measurements (MCMs) and feed-forward operations are crucial for manipulating quantum information. They have been broadly used in quantum error correction and quantum teleportation. Recently, they are utilized to prepare certain states and long-range entangling gates as well as reduce resource overhead in quantum algorithms. In this paper, we present AC/DC, a novel A utomated C ompilation framework for generating D ynamic quantum C ircuits that prepare any unitary operators or states, leveraging numerical optimization-based circuit synthesis methods. The first contribution is introducing optimization objective functions incorporating MCMs and feed-forward operations. The second contribution is embedding these into a popular open-source quantum circuit synthesis framework. We demonstrate generating dynamic circuits for long-range entangling gates, circuit optimization, lattice simulations, and state preparation, with validation through simulation and quantum hardware. Furthermore, we perform a noise analysis to assess the impact of MCM and gate errors, identifying scenarios where dynamic circuits provide significant benefits. The dynamic circuits generated by our framework show substantial improvements in reducing circuit depth and, in some cases, the number of gates. To our knowledge, this is the first practical procedure to generate dynamic quantum circuits, paving the way for enhanced circuit generation and optimization methods for near-term quantum computers.",
+      "url": "https://doi.org/10.1145/3846519",
+      "date": "2026-09-19",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/2058-9565/aea970",
+      "source": "Crossref (Quantum Science and Technology)",
+      "title": "A quantum gate architecture via teleportation and entanglement",
+      "authors": [
+        "Samuel John Sheldon",
+        "Callum William Duncan",
+        "Pieter Kok"
+      ],
+      "abstract": "Abstract We present a universal quantum computing architecture which combines the measurement-driven aspect of MBQC with the circuit model’s algorithm dependent generation of qubit entanglement. Our architecture, which we call QGATE, is tailored for discrete-variable photonic quantum computers with deterministic photon sources capable of generating 1D entangled photonic states. QGATE achieves universal quantum computing on a logical data qubit register via the implementation of Clifford operations, QGATE ancilla, and arbitrary angle single-qubit measurements. We realise unitary evolutions defined by multi-qubit Pauli strings via the generation of entanglement between a sub-set of logical qubits and a mutual QGATE ancilla qubit. Measurement of the QGATE ancilla in the appropriate basis then implements a given term of the desired unitary operation. This enables QGATE to perform Hamiltonian evolutions in terms of a series of multi-qubit Pauli operators, a rule-based procedure for arbitrary Hamiltonians, or standard decomposition strategies to QGATE. We propose a photonic implementation of QGATE, calculating quantum error correction thresholds for fusion failure of 10.36 ± 0.02% and 25.98 ± 0.28% when deterministically generated 1D and 2D&amp;#xD;entangled photonic qubit states respectively are used to construct logical qubits encoded using the foliated rotated surface code. Using 1D states, this puts the error tolerance on QGATE on a par with other comparable quantum computing architectures. The flexible approach of the photonic implementation of QGATE with its natural multi-qubit gates combined with deterministic entanglement generation via quantum emitters offers a promising building block for future advancements.",
+      "url": "https://doi.org/10.1088/2058-9565/aea970",
+      "date": "2026-09-18",
+      "topics": [
+        "Quantum optics / photonics",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.4236/jqis.2026.163014",
+      "source": "Crossref (Journal of Quantum Information Science)",
+      "title": "An Identity-Based Quantum Partially Blind Signature Scheme Based on Quantum Teleportation",
+      "authors": [
+        "Juxiu Zhong",
+        "Rongbo Lu",
+        "Wei Li"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.4236/jqis.2026.163014",
+      "date": "2026-09-18",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.22331/q-2026-09-18-2209",
+      "source": "Crossref (Quantum)",
+      "title": "Gibbs state preparation for commuting Hamiltonian: Mapping to classical Gibbs sampling",
+      "authors": [
+        "Yeongwoo Hwang",
+        "Jiaqing Jiang"
+      ],
+      "abstract": "Gibbs state preparation, or Gibbs sampling, is a key computational technique extensively used in physics, statistics, and other scientific fields. Recent efforts for designing fast mixing Gibbs samplers for quantum Hamiltonians have largely focused on commuting local Hamiltonians (CLHs), a non-trivial subclass of Hamiltonians which include highly entangled systems such as the Toric code and quantum double model. Most previous Gibbs samplers relied on simulating the Davies generator, which is a Lindbladian associated with the thermalization process in nature.Instead of using the Davies generator, we design a different Gibbs sampler for various CLHs by giving a reduction to classical Hamiltonians, in the sense that one can efficiently prepare the Gibbs state for some CLH H on a quantum computer as long as one can efficiently do classical Gibbs sampling for the corresponding classical Hamiltonian H ( c ) . We demonstrate that our Gibbs sampler is able to replicate state-of-the-art results as well as prepare the Gibbs state in regimes which were previously unknown, such as the low temperature region, as long as there exists fast mixing Gibbs samplers for the corresponding classical Hamiltonians. Our reductions are as follows.– If H is a 2-local qudit CLH, then H ( c ) is a 2-local qudit classical Hamiltonian.– If H is a 4-local qubit CLH on 2D lattice and there are no classical qubits, then H ( c ) is a 2-local qudit classical Hamiltonian on a planar graph. As an example, our algorithm can prepare the Gibbs state for the (defected) Toric code at any non-zero temperature in O ( n 2 p o l y ( l o g n ) ) time.– If H is a 4-local qubit CLH on 2D lattice and there are classical qubits, assuming that quantum terms are uniformly correctable, then H ( c ) is a constant-local classical Hamiltonian.",
+      "url": "https://doi.org/10.22331/q-2026-09-18-2209",
+      "date": "2026-09-18",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1097/mnm.0000000000002240",
+      "source": "Crossref (Nuclear Medicine Communications)",
+      "title": "Comprehensive acceptance testing and quality control of Single Photon Emission Computed Tomography/Computed Tomography systems",
+      "authors": [
+        "Noor Ul Huda Abbasi",
+        "Hannan Younis",
+        "Saeed Ur Rehman",
+        "Burhan Zia Abbasi",
+        "Roya Feroze",
+        "Khurram Mehboob",
+        "Muhammad Ajaz"
+      ],
+      "abstract": "Background Single photon emission computed tomography/computed tomography (SPECT/CT) systems play a crucial role in nuclear medicine for accurate diagnosis and treatment planning. Ensuring high image quality through rigorous acceptance testing and quality control is essential to maintain diagnostic reliability and patient safety. Objective This study evaluated the performance of SPECT/CT systems at NORI Hospital Islamabad against National Electrical Manufacturers Association (NEMA) and International Atomic Energy Agency standards and developed a structured quality control program based on acceptance testing results. Methods Acceptance tests were carried out using Tc-99m, I-131, and Co-57 radioactive sources, in conjunction with quadrant bar and Jaszczak phantoms. Parameters assessed included spatial resolution, intrinsic and extrinsic uniformity, energy resolution, sensitivity, center of rotation (COR), detector shielding, background counts, leakage, CT number accuracy, and nuclear medicine/CT registration. Data were compared with manufacturer specifications and NEMA standards to evaluate system performance and inform quality control strategies. Results Both detectors exhibited intrinsic and extrinsic uniformity within NEMA limits, ensuring consistent image quality. Spatial resolution testing confirmed sharp and precise imaging, while energy resolution was within manufacturer-specified values. Sensitivity measurements showed minor differences between detectors but remained within acceptable ranges. COR values were precise (&lt;±0.55 mm), confirming proper mechanical and software alignment. CT number accuracy and nuclear medicine/CT registration tests confirmed precise anatomical-functional image overlay. Detector shielding and leakage tests showed minimal interference, supporting reliable imaging. Conclusion The SPECT/CT systems at NORI Hospital Islamabad met established NEMA standards for image quality. Acceptance testing validated detector performance and highlighted minor areas for improvement, such as periodic sensitivity calibration. Implementation of a structured quality control program ensures consistent equipment performance, optimal image quality, improved diagnostic accuracy, and superior patient care. Routine adherence to international standards is essential for maintaining high-quality nuclear medicine imaging practices.",
+      "url": "https://doi.org/10.1097/mnm.0000000000002240",
+      "date": "2026-09-18",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1097/mnm.0000000000002241",
+      "source": "Crossref (Nuclear Medicine Communications)",
+      "title": "Hepatic reticuloendothelial distribution on sulfur colloid single-photon emission computed tomography/computed tomography is discordant with biochemical liver function in patients undergoing preradioembolization evaluation",
+      "authors": [
+        "Syed Hasan Raza",
+        "Zachary Nuffer",
+        "Neal Savjani",
+        "Ayman Farag",
+        "Arash Kardan"
+      ],
+      "abstract": "Objective To determine whether qualitative technetium-99m sulfur colloid ( 99m Tc-SC) single-photon emission computed tomography/computed tomography (SPECT/CT) grading is discordant with conventional liver function assessment in patients undergoing preradioembolization evaluation. Methods This single-center retrospective study included 96 consecutive patients who underwent dual-tracer 99m Tc-macroaggregated albumin and 99m Tc-SC SPECT/CT for yttrium-90 transarterial radioembolization planning. Sulfur colloid uptake was graded visually on a three-tier ordinal scale: grade I, normal; grade II, intermediate; and grade III, colloid shift. Contemporaneous laboratory values, Child–Pugh class, and model for end-stage liver disease score were recorded. Concordance was assessed using weighted kappa. Associations were evaluated with Spearman correlation, receiver operating characteristic analysis, and ordinal logistic regression. Results Abnormal sulfur colloid findings, defined as grade II/III uptake, were present in 19 of 96 patients (19.8%), including eight patients (8.3%) with grade III colloid shift. Among 85 Child–Pugh A patients, 15 (17.6%) had abnormal sulfur colloid uptake; among 70 lab-normal patients, 11 (15.7%) had abnormal sulfur colloid uptake. Agreement between sulfur colloid grade and Child–Pugh class was poor (weighted kappa: 0.142). Higher sulfur colloid grade correlated modestly with albumin, total bilirubin, international normalized ratio, aspartate aminotransferase, and creatinine, but no variable remained independently associated after adjustment. Albumin best discriminated grade III shift [area under the curve (AUC): 0.732], whereas Child–Pugh class performed near chance (AUC: 0.511). Conclusion Sulfur colloid SPECT/CT demonstrates reticuloendothelial distribution abnormalities in approximately one-fifth of preradioembolization patients, including some with preserved biochemical function. These discordant findings support further outcome-anchored evaluation of sulfur colloid SPECT/CT as a complementary tool before Y-90 radioembolization.",
+      "url": "https://doi.org/10.1097/mnm.0000000000002241",
+      "date": "2026-09-18",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.7759/cureus.116480",
+      "source": "Crossref (Cureus)",
+      "title": "Discordance Between Gated Single-Photon Emission Computed Tomography Myocardial Perfusion Imaging and Coronary Angiography in Dilated Cardiomyopathy",
+      "authors": [
+        "Anowarul Islam",
+        "Sabrina Taher",
+        "Tanvir Ahmed",
+        "Mohammad Jewel Rana",
+        "Mahbubul Haque",
+        "Mehnaz Riffat Mou",
+        "Sadia Arju",
+        "Sabuj Biswas",
+        "Mohammad Masum Mia",
+        "Pulak Kanti Palit"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.7759/cureus.116480",
+      "date": "2026-09-18",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.29001/2073-8552-2026-3167",
+      "source": "Crossref (Siberian Journal of Clinical and Experimental Medicine)",
+      "title": "Quantitative assessment of myocardial perfusion based on dynamic single-photon emission computed tomography in patients with type 2 diabetes mellitus and non-obstructive coronary artery disease",
+      "authors": [
+        "A. A. Tsygikalo",
+        "A. V. Mochula",
+        "A. N. Maltseva",
+        "T. V. Saprina",
+        "A. V. Enert",
+        "A. S. Krinitskaya",
+        "K. V. Zavadovsky"
+      ],
+      "abstract": "Introduction. In patients with type 2 diabetes mellitus (T2DM), myocardial ischemia often develops in the presence of non-obstructive coronary artery disease (NOCAD), indicating a leading role of coronary microvascular dysfunction (CMD). Quantitative assessment of myocardial flow reserve (MFR) using dynamic SPECT with semiconductor detectors (CZT) represents a promising yet understudied approach in this cohort. Aim: To determine the functional characteristics of the microcirculatory bed in patients with T2DM and NOCAD using dynamic CZT-SPECT myocardial perfusion imaging. Material and methods. The study included 75 patients with NOCAD: 36 with T2DM and 39 without diabetes. All patients underwent dynamic myocardial SPECT with ⁹⁹ᵐTc-MIBI and perfusion ECG‑gated SPECT. Semi-quantitative perfusion parameters, absolute values of myocardial blood flow (MBF) at rest and during stress, and MFR were assessed. Results. Compared with the non-diabetic group, patients with T2DM demonstrated statistically significantly higher summed perfusion defect scores (p&lt;0.01) and higher rest MBF (p=0.004) were found, whereas stress MBF did not differ significantly. The medians of MFR and absolute increase in blood flow were lower in the T2DM group (p&lt;0.01 and p=0.03, respectively). Multiple regression analysis confirmed T2DM as an independent predictor of elevated resting MBF. Conclusion. For the first time, using dynamic CZT-SPECT, it was demonstrated that in patients with T2DM and NOCAD the key hemodynamic abnormality is an increase in resting MBF, which leads to a reduction in MFR and may indicate early CMD. Quantitative assessment of MBF components by dynamic CZT-SPECT expands diagnostic capabilities and may serve as a basis for cardiovascular risk stratification in this patient group.",
+      "url": "https://doi.org/10.29001/2073-8552-2026-3167",
+      "date": "2026-09-18",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1109/access.2026.3734114",
+      "source": "Crossref (IEEE Access)",
+      "title": "Placement-Specific Sufficient QKD Block Sizes for Hybrid QKD–ML-KEM Systems: Finite-Key Planning and Split-Security Provisioning",
+      "authors": [
+        "Chavis Srichan",
+        "Sartra Wongthanavasu",
+        "Pobporn Danvirutai"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1109/access.2026.3734114",
+      "date": "2026-09-17",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1088/2058-9565/aea928",
+      "source": "Crossref (Quantum Science and Technology)",
+      "title": "Deployed quantum key distribution network: further, longer and more users",
+      "authors": [
+        "Nathan Lecaron",
+        "Yoann Pelet",
+        "Gregory Sauder",
+        "Nils Raymond",
+        "Julien Chabé",
+        "Clément Courde",
+        "Sébastien Tanzilli",
+        "Anthony Martin",
+        "Olivier Alibart"
+      ],
+      "abstract": "Abstract Entanglement-based quantum links are intended to become the backbone of future quantum networks, enabling secure communication between distant cities. Implementing such networks requires addressing multiple practical challenges: time synchronization, interferometric system stabilization, dispersion, and loss management, as well as reliable automation. In this quest for practical QKD systems, we report the continuous exploitation of an operational link for more than 325 hours over 50 km between two remote locations, demonstrating the feasibility of long-duration key generation. We further extend secure key distribution up to a 100 km operational link connecting several campuses of the University Côte d'Azur to an optical ground station, a setup compatible with future quantum satellite connections. Finally, by employing a dense wavelength-division demultiplexing strategy to separate paired photons, we enable QKD across multiple standard channels, achieving secure key exchange via the BBM92 protocol and time-energy observables in a multiple-user scenario.",
+      "url": "https://doi.org/10.1088/2058-9565/aea928",
+      "date": "2026-09-17",
+      "topics": [
+        "QKD",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1002/qute.70462",
+      "source": "Crossref (Advanced Quantum Technologies)",
+      "title": "Free‐Space Continuous‐Variable Quantum Key Distribution Under Temporal Channel Dynamics",
+      "authors": [
+        "Shengzhi Xu",
+        "Ming Li",
+        "Yuxin Shen",
+        "Nuerbiye Taiwaikuli",
+        "Huimin Chen",
+        "Tianyi Wang",
+        "Milorad Cvijetic",
+        "Ziwen Pan"
+      ],
+      "abstract": "ABSTRACT Temporal dynamics of free‐space continuous‐variable quantum key distribution (CV‐QKD) are intrinsically complicated by atmospheric turbulence‐induced channel fluctuations. The finite‐state Markov (FSM) framework provides a promising approach for mapping temporal evolution into state transitions. However, its application to CV‐QKD remains challenging due to the need for accurate characterization of both channel statistics and temporal correlations. Here, we derive the joint probability density function (PDF) of channel transmittance and its time derivative for log‐normal (LN) and Gamma–Gamma (GG) turbulence models. Based on a spectral‐domain analytical (SDA) approach incorporating inner‐ and outer‐scale effects, we derive temporal channel parameters and quantify the impact of adaptive optics (AO). Furthermore, the level crossing rate (LCR) of channel loss is derived to construct state transition probabilities (STPs) for the FSM framework, which is then employed to predict the temporal evolution of channel transmittance and achievable secret key rate (SKR).Results demonstrate that the proposed FSM framework accurately captures temporal dynamics of free‐space CV‐QKD and turbulence‐induced fluctuations. Under weak turbulence, AO enhances temporal correlation, increases mean SKR, and suppresses short‐term SKR fluctuations. Under strong turbulence, AO improves mean SKR but provides limited enhancement of temporal correlation and fluctuation suppression due to physical constraints.",
+      "url": "https://doi.org/10.1002/qute.70462",
+      "date": "2026-09-17",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11432-025-4932-x",
+      "source": "Crossref (Science China Information Sciences)",
+      "title": "Practical phase-coding side-channel-secure quantum key distribution",
+      "authors": [
+        "Yang-Guang Shan",
+        "Zhen-Qiang Yin",
+        "Shuang Wang",
+        "Wei Chen",
+        "De-Yong He",
+        "Guang-Can Guo",
+        "Zheng-Fu Han"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1007/s11432-025-4932-x",
+      "date": "2026-09-17",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1088/2058-9565/aea927",
+      "source": "Crossref (Quantum Science and Technology)",
+      "title": "Hybrid authentication protocols for advanced quantum networks",
+      "authors": [
+        "Suchetana Goswami",
+        "Mina Doosti",
+        "Elham Kashefi"
+      ],
+      "abstract": "Abstract Authentication is a fundamental building block of secure quantum networks, essential for quantum cryptographic protocols and often debated as a key limitation of quantum key distribution (QKD) in security standards. Most quantum-safe authentication schemes rely on small pre-shared keys or post-quantum computational assumptions. In this work, we introduce a new authentication approach that combines hardware assumptions, particularly Physical Unclonable Functions (PUFs), along with fundamental quantum properties of non-local states, such as local indistinguishability, to achieve provable security in entanglement-based protocols. We propose two protocols for different scenarios in entanglement-enabled quantum networks. The first protocol, referred to as the offline protocol, requires pre-distributed entangled states but no quantum communication during the authentication phase. It enables a server to authenticate clients at any time with only minimal classical communication. The second, an online protocol, requires quantum communication but only necessitates entangled state generation on the Prover 's side. For this, we introduce a novel hardware module, the Hybrid Entangled PUF (HEPUF). Both protocols use weakly secure, off-the-shelf classical PUFs as their hardware module, yet we prove that quantum properties such as local indistinguishability enable exponential security for authentication, even in a single round. We provide full security analysis for both protocols and establish them as the first entanglement-based extension of hardware-based quantum authentication. These protocols are suitable for implementation across various platforms, particularly photonics-based ones, and offer a practical and flexible solution to the long-standing challenge of authentication in quantum communication networks.",
+      "url": "https://doi.org/10.1088/2058-9565/aea927",
+      "date": "2026-09-17",
+      "topics": [
+        "QKD",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1002/qute.70473",
+      "source": "Crossref (Advanced Quantum Technologies)",
+      "title": "Correction to “Quantum Information Measures of a Dirichlet Waveguide With Neumann Window(s)”",
+      "authors": [],
+      "abstract": "",
+      "url": "https://doi.org/10.1002/qute.70473",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1364/opticaq.579366",
+      "source": "Crossref (Optica Quantum)",
+      "title": "Comparison and limitations of quantum lidar in the single-photon regime",
+      "authors": [
+        "Anthony Drouin",
+        "Jean-Philippe Bourgoin",
+        "Sara Hosseini",
+        "Francois Sfigakis",
+        "Jonathan Baugh",
+        "Michael Reimer"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1364/opticaq.579366",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11128-026-05347-2",
+      "source": "Crossref (Quantum Information Processing)",
+      "title": "Verifiable dynamic quantum secure multi-party multiplication protocol based on homomorphic encryption",
+      "authors": [
+        "Fulin Li",
+        "Rongpei Li",
+        "Yixin Sun",
+        "Shixin Zhu"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1007/s11128-026-05347-2",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1103/kszt-p63d",
+      "source": "Crossref (PRX Quantum)",
+      "title": "Spectrally robust photon-pair generation in topological waveguide arrays",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/kszt-p63d",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1002/qute.70451",
+      "source": "Crossref (Advanced Quantum Technologies)",
+      "title": "Parallel‐Channel Topological Quantum Routing in a Superconducting Qudit Chain",
+      "authors": [
+        "Jia‐Heng Ni",
+        "Liang Bin",
+        "Qi‐Ping Su",
+        "Yi‐Hao Kang",
+        "Chui‐Ping Yang"
+      ],
+      "abstract": "ABSTRACT Efficient quantum routing and entanglement distribution are essential for scalable quantum networks. We propose a parallel chain topological quantum routing based on a chain of superconducting qudits, where distinct internal levels of each qudit define independent topologically protected channels. Utilizing a network of superconducting qudits (multi‐level quantum systems) and microwave resonators, our scheme realizes multiple independent SSH‐type chains in the single‐excitation subspace, each associated with a distinct internal level of the qudits. The key innovation is that distinct internal levels of qudits realize mutually independent parallel SSH chains, enabling independent and protected quantum channels. We demonstrate that quantum states can be routed to different output ports based on internal degrees of freedom (i.e., distinct energy levels of superconducting qudits). Furthermore, we show that this system enables adiabatic pumping for state transfer and preparation of entanglement via the Rice‐Mele model. Numerical simulations demonstrate that the system possesses topological robustness against coupling and potential disorders, and remains stable in the presence of dissipation, highlighting its potential for quantum routing and entanglement distribution and establishing it as a versatile building block for multi‐functional quantum devices in noise‐resilient quantum networks.",
+      "url": "https://doi.org/10.1002/qute.70451",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/2058-9565/aea92a",
+      "source": "Crossref (Quantum Science and Technology)",
+      "title": "QAOA pseudo-Boltzmann sampling beyond the rapid-mixing regime on superconducting quantum computers",
+      "authors": [
+        "Feliks Akseli Kivelä",
+        "Pablo Díez-Valle",
+        "Juan Jose Garcia-Ripoll",
+        "Gheorghe Sorin Paraoanu"
+      ],
+      "abstract": "Abstract The Quantum Approximate Optimization Algorithm (QAOA) is a variational quantum algorithm developed for solving combinatorial optimization problems.&amp;#xD;It has also been shown to generate pseudo-Boltzmann distributions, with potential applications in various fields of computer science and computational physics.&amp;#xD;In this work, we build upon previous theoretical results and demonstrate pseudo-Boltzmann sampling with single-layer QAOA on real superconducting quantum computers.&amp;#xD;We show that the pseudo-Boltzmann distribution and the ability to adjust its effective temperature survive the accumulated errors of a real, noisy superconducting quantum processor.&amp;#xD;On an IBM processor, we are able to reach temperatures below a classical minimum-temperature boundary that guarantees the rapid mixing of single-site Glauber dynamics.&amp;#xD;We also run controlled simulations of QAOA with various noise models to characterize how increasing error rates raises the effective temperature of the distribution and limits the lowest accessible temperature.",
+      "url": "https://doi.org/10.1088/2058-9565/aea92a",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/2058-9565/aea92e",
+      "source": "Crossref (Quantum Science and Technology)",
+      "title": "Complete coherent control of spin qubits in self-assembled InAs quantum dots under oblique magnetic fields",
+      "authors": [
+        "Ioannis Samaras",
+        "Kristopher Barr",
+        "Christian Schneider",
+        "Sven Höfling",
+        "Konstantinos G. Lagoudakis"
+      ],
+      "abstract": "Abstract We demonstrate complete coherent control of a single spin qubit confined in a self-assembled InAs negatively charged quantum dot subjected to an Oblique magnetic field, and directly compare this regime with the conventional Voigt geometry. In the Oblique-field configuration, the ground-state spin eigenstates are found to be unequal superpositions of the bare electron spin, with their composition tunable via the orientation of the applied field. This tunable spin mixing provides an additional degree of freedom to engineer the spin basis and associated optical couplings in the charged quantum dot system. Although this geometry has a distinct structure with important implications, it provides a regime in which we can fully and coherently control the tailored spin qubit. We observe Rabi oscillations and Ramsey fringes, and demonstrate arbitrary single-qubit rotations, enabling a direct comparison with the Voigt case. Our results establish that spin-qubit control does not necessarily require a pure Voigt geometry and can instead be achieved under Oblique magnetic fields. This relaxes constraints on device and field alignment and offers a versatile route to design and optimize spin–photon interfaces and spin-based quantum information processing architectures in semiconductor quantum dots.",
+      "url": "https://doi.org/10.1088/2058-9565/aea92e",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.68302/std2026.vol1.207",
+      "source": "Crossref (Proceedings of the International Conference on Secure Systems Design and Technology Development)",
+      "title": "LIGHTWEIGHT COMPARATIVE EVALUATION OF QUANTUM AND HYBRID QUANTUM-CLASSICAL MACHINE LEARNING MODELS FOR INTRUSION DETECTION",
+      "authors": [
+        "Genadiy Gospodinov",
+        "Tamara Ristovska",
+        "Tito Titov",
+        "Kiril Nikolov",
+        "Andriyan Stoilov",
+        "Kliment Toshkov"
+      ],
+      "abstract": "Quantum machine learning (QML) has recently emerged as a promising research direction at the intersection of artificial intelligence, quantum computing, and cybersecurity. Among its potential applications, intrusion detection remains particularly relevant due to the growing complexity of cyber threats and the increasing need for adaptive and efficient detection mechanisms. This paper explores the applicability of lightweight quantum and hybrid quantum-classical machine learning approaches for intrusion detection in resource-constrained experimental settings. The study is designed as a comparative analysis of selected models, including variational and kernel-based quantum techniques, alongside a conventional classical baseline, in order to evaluate their practical potential for cybersecurity tasks.The experimental framework relies on a reduced and preprocessed cybersecurity dataset and is implemented in a simulated quantum environment using accessible open-source tools. The comparison considers standard performance indicators such as classification effectiveness and computational efficiency, while also reflecting on broader dimensions of model suitability for security-oriented applications. In addition to the technical evaluation, the paper addresses several ethical considerations associated with the use of QML in cybersecurity, including limited transparency, risks related to biased or imbalanced training data, and the operational implications of incorrect classifications in intrusion detection scenarios.Rather than claiming immediate quantum advantage, the study aims to provide a realistic and methodologically grounded perspective on the current role of QML in cybersecurity research. The expected contribution is twofold - first, to outline a feasible experimental approach for evaluating QML methods in intrusion detection and second, to highlight the importance of combining performance-oriented assessment with ethical and interpretability-related considerations when examining emerging intelligent security solutions.",
+      "url": "https://doi.org/10.68302/std2026.vol1.207",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.67440/ahj.vi.2131",
+      "source": "Crossref (Adolescência e Saúde)",
+      "title": "Quantum-Resistant Blockchain Protocols For Secure Transactions",
+      "authors": [
+        "Kollikondla Praneeth Kumar",
+        "Dr. V. Valli Mayil",
+        "Sushmitha M",
+        "Tummapudi Sunil"
+      ],
+      "abstract": "Background: Digital signatures are crucial for ensuring the authentication of deals in a blockchain system. The introduction of quantum computing, however, can be a real danger to these types of systems, as it allows for hackers to break the widely used cryptographic systems, such as RSA, ECC and AES. To overcome this shortcoming, a quantum-resistant digital signature verification mechanism using the CRYSTALS-Dilithium algorithm is suggested for securing transactions in the post-quantum era. The method is based on a signature architecture mixture of classical and quantum -safe methods, providing backward compatibility and enhanced security. This process consists of transaction creation, digital signature, transaction broadcasting, transaction validation, and block formation and a consensus. User registration and transaction processing is carried out by smart contracts in a tamper-proof Blockchain ecosystem. In addition, the data of transactions are protected from unauthorized transactions and ensured privacy is maintained by AES. Performance investigation shows that the hybrid CRYSTALS-Dilithium algorithm has somewhat higher latency than RSA and ECC, but greatly enhances resilience to quantum attacks. In conclusion, the combination of quantum-safe cryptography and Blockchain promises to create a robust and sustainable platform for future digital transactions, providing long-term security, scalability, and interoperability for decentralized systems.",
+      "url": "https://doi.org/10.67440/ahj.vi.2131",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1002/qute.70472",
+      "source": "Crossref (Advanced Quantum Technologies)",
+      "title": "Single‐Photon Scattering in a Dissipative Superconducting‐Qubit–SSH Lattice Hybrid",
+      "authors": [
+        "X. X. Zhang",
+        "J. Zhou",
+        "X. Z. Zhang"
+      ],
+      "abstract": "ABSTRACT We study single‐photon scattering in a Su–Schrieffer–Heeger (SSH) photonic lattice locally coupled to a superconducting qubit with tunable loss or gain. Working in the single‐excitation sector, we derive an explicit real‐space scattering formulation for the full energy‐dependent scattering matrix and identify how its eigenvalues encode coherent perfect absorption, amplification, and spectral singular behavior. The analytical results are benchmarked against time‐domain wave‐packet simulations, which reproduce the stationary scattering probabilities with high accuracy. We show that the SSH dimerization, the qubit‐induced non‐Hermitian self‐energy, and the synthetic gauge phase cooperate to reshape the reflection and transmission spectra in a highly selective manner. In particular, changing the dimerization can switch the system between transmission‐dominated and reflection‐dominated regimes, while the flux provides direct handle on interference and symmetry‐controlled response. We also find a robust loss–gain correspondence in the reflection landscape and show that the linewidth broadening is governed primarily by the magnitude of the non‐Hermitian coupling. These results establish a compact and experimentally relevant framework for topological scattering in superconducting quantum networks.",
+      "url": "https://doi.org/10.1002/qute.70472",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/0256-307x/43/10/100601",
+      "source": "Crossref (Chinese Physics Letters)",
+      "title": "Heterogeneous Single-photon Transistor with Rydberg Atoms",
+      "authors": [
+        "Jian-Hao Yu",
+        "Ren Liao",
+        "Gen-Sheng Ye",
+        "Ze-Rui Song",
+        "Jing-Lv Yang",
+        "Kuan Zhang",
+        "Lin Li"
+      ],
+      "abstract": "Abstract The development of practical quantum networks and scalable photonic quantum information processing crucially depends on the ability to execute high-fidelity and coherent operations between photons of different wavelengths. While approaches based on quantum interference can implement many quantum operations, they are inherently limited to identical photons and thus are insufficient for the frequency-matching requirements of heterogeneous quantum systems. Rydberg atomic systems provide a powerful platform for achieving strong photonphoton nonlinearities capable of overcoming this limitation. Here, we report a heterogeneous single-photon switch and transistor based on Rydberg atoms, where a single gate photon at 795 nm controls the transmission of subsequent target photons at 780 nm. Our devices achieve a post-selected extinction ratio of ϵ = 0.09(3) for the switch, alongside a transistor gain of G = 26(2) achieved by leveraging a Förster-resonance-enhanced cross-state interaction. This work establishes a practical pathway towards building frequency-multiplexed quantum interfaces, a key component for interconnecting disparate physical platforms in future hybrid quantum networks.",
+      "url": "https://doi.org/10.1088/0256-307x/43/10/100601",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum optics / photonics",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.24425/opelre.2026.6090",
+      "source": "Crossref (Opto-Electronics Review)",
+      "title": "From inverse error function to resolution enhancement: hardware-efficient virtual subdivision in single photon counting detectors",
+      "authors": [
+        "Tomasz Litwinek",
+        "Aleksandra Krzyżanowska",
+        "Piotr Otfinowski"
+      ],
+      "abstract": "Single-photon counting hybrid pixel X-ray detectors combine a wide dynamic range with effective noise suppression, but their spatial resolution is degraded by charge sharing, which intensifies as the pixel pitch shrinks. The charge fractions registered by neighbouring pixels can, however, be exploited to estimate the photon interaction position with subpixel precision. This work presents a fully digital, in-pixel algorithm that reconstructs the interaction position from the digitised readings of a 3 × 3 pixel neighbourhood, assigning each event to one of 2 × 2 or 3 × 3 virtual subdivisions. An exact reconstruction based on the inverse error function is reformulated into the ratio-based virtual subdivision allocation (RVSA) algorithm, which replaces the per-event division and erf-1 evaluation with a single integer ratio test. Simulations against a behavioural front-end model with noise and converter non-idealities show that RVSA matches the floating-point reference, reducing the mean allocation error from 0.38 of the pixel pitch for conventional single-photon counting to 0.14 in the 3 × 3 mode. Synthesized in a 40 nm CMOS process, the RVSA datapath occupies about 1740 µm2 and dissipates 1.42 µW per pixel, fitting within a 50 × 50 µm2 pixel alongside the analogue front-end.",
+      "url": "https://doi.org/10.24425/opelre.2026.6090",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1364/ol.611869",
+      "source": "Crossref (Optics Letters)",
+      "title": "Photon pair generation via direct and cascaded processes in a thin second-order nonlinear film",
+      "authors": [
+        "Changjin Son",
+        "Maria Chekhova"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1364/ol.611869",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1002/qute.70458",
+      "source": "Crossref (Advanced Quantum Technologies)",
+      "title": "D‐π‐A Type Pure Organic Small Molecular Nonlinear Optical Materials in Quantum Information Technology",
+      "authors": [
+        "Chuanxin Liao",
+        "Jialong Cui",
+        "Dengke Zhang",
+        "Qi Zhang",
+        "Xiaofu Zhang",
+        "Yunru Fan",
+        "Guangcan Guo",
+        "Qiang Zhou"
+      ],
+      "abstract": "ABSTRACT The development of high‐performance nonlinear optical (NLO) materials based on donor‐π‐acceptor (D‐π‐A) type pure organic small molecules is crucial for advancing quantum information technologies, including quantum memories, quantum sources, and quantum sensors. Conventional inorganic NLO materials often face challenges such as high fabrication costs, limited structural tunability, and moderate NLO coefficients. In contrast, D‐π‐A organic NLO materials offer a promising alternative, exhibiting high NLO coefficients, fast response speeds, low preparation costs, and facile structural modification. However, current research in this area remains constrained by the limited diversity of chemical structures, the lack of standardized performance characterization methods, and insufficient exploration in quantum device applications. This review summarizes recent advances in D‐π‐A pure organic small‐molecule NLO materials for quantum information technology, with a focus on how D‐π‐A architectures, molecular structures, and functional substitutions influence their optical properties. The article also provides forward‐looking suggestions for the design of novel molecules and the development of next‐generation NLO materials.",
+      "url": "https://doi.org/10.1002/qute.70458",
+      "date": "2026-09-17",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11128-026-05323-w",
+      "source": "Crossref (Quantum Information Processing)",
+      "title": "An in-depth analysis of QKD channel and secret key rate in free space laser optics for next generation secure networks",
+      "authors": [
+        "Peppino Fazio",
+        "Mauro Tropea",
+        "Miralem Mehic",
+        "Floriano De Rango",
+        "Miroslav Voznak"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1007/s11128-026-05323-w",
+      "date": "2026-09-16",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1002/qute.70448",
+      "source": "Crossref (Advanced Quantum Technologies)",
+      "title": "Coordinated Suppression of Excess Noise for Continuous‐Variable Quantum Key Distribution in Unstable Channels Via Ensemble Learning",
+      "authors": [
+        "Kexin Liang",
+        "Zhengwen Cao",
+        "Geng Chai"
+      ],
+      "abstract": "ABSTRACT Excess noise is a critical factor limiting the system performance of Continuous‐Variable Quantum Key Distribution (CVQKD). However, conventional suppression methods are optimized for a single type of excess noise and exhibit insufficient robustness in unstable channels, reducing the improvement of the secret key rate (SKR). Thus, this work proposes an ensemble learning‐based excess noise suppression framework. By fusing decision information from multiple submodels, ensemble learning frees the framework from the limitation of relying on a single excess noise distribution, enabling it to adapt to the characteristic differences of excess noise from diverse sources and ultimately achieve coordinated suppression of multi‐source excess noise. To further enhance the real‐time adaptability of the framework to unstable channels, the Grey Wolf Optimizer (GWO) is introduced to optimize the hyperparameters of the ensemble learning model globally, ensuring the model can maintain stable suppression performance under changing channel environments. Experiments demonstrate that this scheme enables the centralized suppression of excess noise within the system, with a maximum suppression rate of 75%. The SKR is significantly improved by approximately 2.43 times, which verifies the effectiveness of the scheme in enhancing the system's performance.",
+      "url": "https://doi.org/10.1002/qute.70448",
+      "date": "2026-09-16",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1038/s41598-026-68327-7",
+      "source": "Crossref (Scientific Reports)",
+      "title": "Hybrid quantum-inspired secure and energy-efficient framework for wireless sensor networks using quantum key distribution and optimization techniques",
+      "authors": [
+        "K. Kalaiselvi",
+        "S. Sheeba Rani",
+        "K. Suriyakrishnaan",
+        "S. Ramalingam"
+      ],
+      "abstract": "Abstract Wireless sensor networks (WSNs) require secure and energy-efficient communication because sensor nodes operate with limited battery power, constrained communication range, and high vulnerability to interception, spoofing, and malicious forwarding. Existing methods usually optimize security, clustering, or routing independently, which reduces overall network efficiency under dense and adversarial conditions. To address this limitation, this work proposes a hybrid framework named BB84-CFG-OOA, which integrates BB84-inspired Quantum Key Distribution (QKD) for secure session key establishment, Coalition Formation Game (CFG) for stable and energy-aware clustering, and the Orangutan Optimization Algorithm (OOA) for optimal routing path selection. In the proposed framework, BB84 secures control and data communication, CFG forms reliable clusters and selects suitable cluster heads based on energy, trust, and communication cost, and OOA identifies low-cost and secure multihop paths using a composite fitness function involving energy, delay, distance, and trust. Simulation results under standard WSN settings demonstrate the superiority of the proposed model over existing protocols. In the dense 500-node scenario, the proposed BB84-CFG-OOA framework achieves a packet delivery ratio of 94.6%, throughput of 0.86 bps, end-to-end delay of 6.8 s, energy consumption of 126 mJ, packet loss ratio of 6.6%, buffer occupancy of 15.0%, communication cost of 0.16, hop count of 5.6, and network lifetime of 4340 rounds. In addition, the framework retains 0.09 J residual energy at 2000 rounds, confirming better energy preservation. These results indicate that the proposed model significantly improves delivery reliability, communication security, routing efficiency, and network sustainability, making it a promising solution for next-generation WSN applications.",
+      "url": "https://doi.org/10.1038/s41598-026-68327-7",
+      "date": "2026-09-16",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1116/5.0340238",
+      "source": "Crossref (AVS Quantum Science)",
+      "title": "Using Holevo bound for leakage estimation in quantum key distribution",
+      "authors": [
+        "Ivan Sushchev",
+        "Kirill Bugai",
+        "Daniil Bulavkin",
+        "Anna Sidelnikova",
+        "Dmitry Melkonian",
+        "Veronika Vakhrusheva",
+        "Roman Lokhmatov",
+        "Klim Bondar",
+        "Dmitriy Dvoretskiy"
+      ],
+      "abstract": "Side-channel imperfections in quantum key distribution (QKD) are often treated within the GLLP and Koashi framework, which typically produces overly conservative key-rate estimates. Conditional-entropy approaches based on the Holevo bound provide a less pessimistic alternative but must correctly account for post-selective measurements, such as unambiguous state discrimination. We show that general post-selective soft-filtering transformations of side-channel states can be consistently incorporated into this framework. By relating the distinguishability of filtered Trojan-horse-attack states to observable parameters, namely, the reflected mean photon number and the single-photon yield, we derive a Holevo-based upper bound on the eavesdropper's information for decoy-state BB84. Numerical comparison demonstrates that this method yields significantly higher key rates than the GLLP and Koashi approach when the side-channel intensity is large, extending the secure distance by tens of kilometers. This provides a practical and tighter tool for leakage estimation in modern QKD systems.",
+      "url": "https://doi.org/10.1116/5.0340238",
+      "date": "2026-09-16",
+      "topics": [
+        "QKD",
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1002/qute.70443",
+      "source": "Crossref (Advanced Quantum Technologies)",
+      "title": "A Distributed Quantum Blind Millionaire Protocol Based on Quantum Walks",
+      "authors": [
+        "Ran Zhang",
+        "Xue Zhang",
+        "Jiarui He",
+        "Long Zhang",
+        "Kejia Zhang"
+      ],
+      "abstract": "ABSTRACT The quantum blind millionaire (QBM) problem is a fundamental primitive in quantum secure multi‐party computation. It enables two groups to compare aggregated private sums while protecting individual data, and is widely adopted in privacy‐preserving collaborative decision‐making. However, most existing QBM protocols either rely on semi‐honest third parties or adopt sophisticated quantum states. These approaches lead to high resource overhead and operational complexity, which restricts practical deployment. In this paper, we apply the one‐directional quantum walks on a circle (ODQWC) to the QBM problem for the first time and develop a new distributed QBM protocol. This scheme employs only a single quantum walker and requires no trusted third party. Moreover, the proposed protocol achieves higher qubit efficiency than most existing mainstream QBM protocols, with an efficiency exceeding . According to our analysis, the protocol passes the verification of both correctness and security, and its feasibility is confirmed via IBM Qiskit simulations. The proposed scheme solves the QBM problem efficiently and can serve as a building block for broader multi‐party collaborative computation tasks.",
+      "url": "https://doi.org/10.1002/qute.70443",
+      "date": "2026-09-16",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1103/wlcl-c61b",
+      "source": "Crossref (Physical Review Letters)",
+      "title": "Next-to-next-to-next-to-leading order QCD corrections to photon-pair production",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/wlcl-c61b",
+      "date": "2026-09-16",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1038/s42005-026-02859-2",
+      "source": "Crossref (Communications Physics)",
+      "title": "Witnessing quantum discord for secure quantum key distribution",
+      "authors": [
+        "Rong Wang",
+        "Guan-Jie Fan-Yuan",
+        "Zhen-Qiang Yin",
+        "Shuang Wang",
+        "Hong-Wei Li",
+        "Yao Yao",
+        "Wei Chen",
+        "Guang-Can Guo",
+        "Zheng-Fu Han"
+      ],
+      "abstract": "Abstract The study of quantum information processing seeks to characterize the resources that enable quantum information processing to perform tasks that are unfeasible or inefficient for classical information processing. Quantum cryptography is one such task, and researchers have identified entanglement as a sufficient resource for secure key generation. However, quantum discord, another type of quantum correlation beyond entanglement, has been found to be necessary for guaranteeing secure communication. Despite this, it remains a long-standing problem to clearly understand the role that discord plays and how to effectively utilize discord for analyzing security in specific quantum cryptography protocols. Here, we strictly prove that discord determines the secrecy and show its practical interest by considering a three-state quantum key distribution protocol. Its robustness against imperfections in qubit sources and measurements as well as basis misalignment, results in better key rates than BB84 protocol. Those advantages are experimentally demonstrated via photonic phase encoding systems.",
+      "url": "https://doi.org/10.1038/s42005-026-02859-2",
+      "date": "2026-09-15",
+      "topics": [
+        "QKD",
+        "Quantum cryptography",
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1103/4wvz-1p8m",
+      "source": "Crossref (PRX Quantum)",
+      "title": "Ising on the donut: Regimes of topological quantum error correction from statistical mechanics",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/4wvz-1p8m",
+      "date": "2026-09-15",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11128-026-05318-7",
+      "source": "Crossref (Quantum Information Processing)",
+      "title": "Weak-measurement assisted quantum teleportation fidelity enhancement under noise",
+      "authors": [
+        "Mohit Dhanik",
+        "Shraddha Sharma",
+        "Pitamber Mahanandia"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1007/s11128-026-05318-7",
+      "date": "2026-09-15",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.48175/ijarsct-38401",
+      "source": "Crossref (International Journal of Advanced Research in Science Communication and Technology)",
+      "title": "Verilog-Based FPGA Realization of KINA: A Karatsuba-Initiated Accelerator for Ring-Binary-LWE Post-Quantum Cryptography",
+      "authors": [
+        "Arukonda Suresh and K Naresh"
+      ],
+      "abstract": "The transition toward post-quantum cryptography requires hardware architectures that can execute lattice-based polynomial arithmetic with low latency and moderate resource cost. This paper presents a Verilog-based realization and evaluation of the Karatsuba Initiated Novel Accelerator (KINA) concept for Ring-Binary Learning With Errors based encryption (RBLWE-ENC). The core computation is polynomial multiplication in Z_q/(x^n+1), where one operand is binary and the other is integer-valued. Conventional schoolbook multiplication incurs O(n^2) coefficient operations, while the RBLWE parameter setting is not naturally suited to direct Number Theoretic Transform acceleration. The implemented architecture therefore applies a one-level Karatsuba decomposition that forms three half-size products, T_L, T_H, and T_M, and recombines them through a linear-combination datapath. Circular shift registers support column-wise accumulation, binary point-wise products are realized with simple logic, and the two-bit middle operand is handled by a compact multiplexer-based multiplier. A finite-state controller coordinates clear, load, compute, output, and done phases. For the educational RTL prototype, n=8 and q=256 were used for simulation and synthesis. XSim verification completed successfully with a final visible cipher coefficient of 146 (0x92) and a decoded message bit of 1. RTL elaboration and synthesis confirmed full module connectivity and device mapping, while the reported post-synthesis on-chip power estimate was 0.089 W. The study also analyzes the scalable parallelism factor u, for which multiplication latency decreases from n/2 to n/(2u) cycles at the cost of additional datapath resources. The results demonstrate the functional feasibility of a compact Verilog KINA implementation and provide a practical path toward larger n=256 and n=512 FPGA realizations for lightweight post-quantum security",
+      "url": "https://doi.org/10.48175/ijarsct-38401",
+      "date": "2026-09-15",
+      "topics": [
+        "Quantum cryptography"
+      ]
+    },
+    {
+      "id": "doi:10.1063/5.0334616",
+      "source": "Crossref (Journal of Applied Physics)",
+      "title": "Plasmonic nanoantenna-mediated quantum dot artificial molecules with engineerable collective stimulated emission and inter-quantum dot quantum-state entanglement",
+      "authors": [
+        "Lidan Cao",
+        "Guiru Gu",
+        "Danhong Huang",
+        "Xuejun Lu"
+      ],
+      "abstract": "Collective stimulated emission and entangled quantum states can find numerous applications such as high-efficiency quantum emitters, quantum encryption, quantum computing, and quantum sensing. Naturally occurring molecules lack the required spectral properties and offer limited flexibility for structural and spectral engineering at the atomic level. In this paper, we present a platform of plasmonic nanoantenna-mediated quantum-dot (QD) “artificial molecules” with engineerable collective radiation states and quantum state entanglement. Since the energy transfer is mediated by plasmonic currents along nanoantennas, the plasmonic nanoantennas significantly increase the energy transfer distance beyond the Förster resonant energy transfer limit. The plasmonic nanoantennas also provide well-defined directions for energy flow, allowing for the engineerable configuration of interactions between the QDs. By tailoring the antenna configurations, specifically half-wave (λ/2) and full-wave (1λ) resonances—we demonstrate the ability to tune the collective stimulated-emission modes. In addition, we show that quantum entangled multi-exciton states can be generated through stimulated emission in these nanoantenna-mediated QD artificial molecules. We provide a detailed theoretical analysis of the nanoantenna-mediated QD interactions, characterizing the resulting collective stimulated emission and inter-QD quantum state entanglement. These atomic-level engineerable QD artificial molecule platforms can find numerous applications in quantum entangled emitters, integrated quantum communication, quantum, computation, quantum sensing, and metrology.",
+      "url": "https://doi.org/10.1063/5.0334616",
+      "date": "2026-09-15",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1021/acs.nanolett.6c03060",
+      "source": "Crossref (Nano Letters)",
+      "title": "Adaptive Cavity Control of Single-Photon Emission from Hexagonal Boron Nitride",
+      "authors": [
+        "Hyeongwoo Lee",
+        "Taeyoung Moon",
+        "Hyeonmin Oh",
+        "Kijeong Park",
+        "Huitae Joo",
+        "Milos Toth",
+        "Igor Aharonovich",
+        "Kyoung-Duck Park"
+      ],
+      "abstract": "Abstract Atom-like defects in hexagonal boron nitride (hBN) are promising room-temperature quantum light sources, but their stochastic spatial positions and emitter-dependent transition energies have limited deterministic cavity coupling and active control of their emission dynamics. Here, we demonstrate the adaptive cavity control of quantum emission from individual hBN single-photon emitters at room temperature. Using tip-enhanced cavity spectroscopy, we spatially position a nanoscale optical cavity over selected emitters and spectrally match the cavity response to the excitation laser and emitter zero-phonon line. This adaptive spatio-spectral control enables selective enhancement of excitation and spontaneous emission pathways rather than simple photoluminescence amplification. By switching between excitation-dominated and emission-dominated coupling regimes, we reshape photon statistics, enhancing antibunching or inducing controlled bunching, depending on the cavity condition. These results establish adaptive cavity control as a strategy for engineering the brightness, lifetime, saturation behavior, and photon statistics in hBN quantum emitters.",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c03060",
+      "date": "2026-09-15",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1002/acm2.70798",
+      "source": "Crossref (Journal of Applied Clinical Medical Physics)",
+      "title": "Commissioning a single photon counting CT simulator for radiotherapy planning: Methods, challenges, and initial results",
+      "authors": [
+        "Parminder S. Basran",
+        "Devon Richtsmeier"
+      ],
+      "abstract": "Abstract Background Photon counting computed tomography (PCCT) offers distinct advantages over standard energy‐integrated detector (EID) CT by offering energy‐resolved measurements, enhanced spatial resolution, and improved soft‐tissue contrast. While PCCT shows great utility in diagnostic imaging, its application as a radiotherapy simulator has not been explored. Commissioning procedures for EID‐based CT simulators are well‐documented, but commissioning a PCCT scanner in a radiotherapy setting has not been investigated. Purpose We investigated whether PCCT can be used for radiotherapy simulation by evaluating the geometric accuracy, image quality, dosimetric performance, and relative electron density calibration of a Siemens Naeotom Alpha PCCT scanner with a commercially available carbon‐fiber couch top. Methods Commissioning followed AAPM Task Group 66 guidelines, involving electromechanical evaluation, image quality assessment, and radiation safety verification. The CATPHAN 604 phantom was used to evaluate CT number accuracy, uniformity, spatial resolution, low contrast detectability, and geometric accuracy across multiple clinical protocols. Dosimetric measurements were performed using CTDI phantoms with a 100‐mm pencil ion chamber. Relative electron density (RED) calibration was performed using an Advanced Electron Density phantom at selected tube voltages (120 and 140 kVp), slice thicknesses (0.4–10 mm), and reconstruction filters. Statistical analyses included repeated‐measures ANOVA with post‐hoc pairwise comparisons to assess protocol and position effects on Hounsfield unit values. Results Geometric accuracy measurements revealed in‐plane spatial linearity of 50.00 ± 0.06 mm (nominal 50 mm). CT number accuracy aligned with manufacturer specifications, except for bone, using specific protocols. The mean discrepancy between measured and nominal CTDI vol was 3.8 ± 4.6%, with excellent agreement on the dose‐length product (0.9 ± 2.3%). Relative electron density measurements suggested statistically significant, but clinically insignificant, variations across protocols (mean HU shifts: ‐23.0 to 7.9 HU). Position‐dependent effects suggested mean HU reductions up to 23.2 HU at peripheral locations. Iterative metal artifact reduction (iMAR) differentiated Titanium and Stainless Steel metallic implants without significantly affecting surrounding tissue CT numbers ( P &gt; 0.08). Conclusions The Siemens Naeotom Alpha PCCT scanner satisfies the requirements noted in task group reports for a radiotherapy simulator. The system's enhanced spatial resolution, spectral imaging capabilities, and flexible retrospective reconstruction have the potential to offer advantages for radiation oncology applications, including improved target delineation and treatment planning accuracy.",
+      "url": "https://doi.org/10.1002/acm2.70798",
+      "date": "2026-09-15",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
     {
       "id": "doi:10.3389/frqst.2026.1865541",
       "source": "Crossref (Frontiers in Quantum Science and Technology)",
@@ -35,6 +878,71 @@
       "date": "2026-09-14",
       "topics": [
         "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1134/s0021364026608298",
+      "source": "Crossref (JETP Letters)",
+      "title": "Unidimensional-modulation Continuous-variable Quantum Key Distribution under Light-injection Attacks",
+      "authors": [
+        "P. Wang",
+        "J. Liang",
+        "Z. Bai",
+        "L. Chang"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1134/s0021364026608298",
+      "date": "2026-09-14",
+      "topics": [
+        "QKD"
+      ]
+    },
+    {
+      "id": "doi:10.1103/r577-33dc",
+      "source": "Crossref (Physical Review A)",
+      "title": "Transduction-enabled superconducting quantum repeater: Toward deterministic entanglement distribution with high-fidelity gates",
+      "authors": [
+        "Anonymous"
+      ],
+      "abstract": "",
+      "url": "https://doi.org/10.1103/r577-33dc",
+      "date": "2026-09-14",
+      "topics": [
+        "Quantum information / computing"
+      ]
+    },
+    {
+      "id": "doi:10.1088/2040-8986/aea6f0",
+      "source": "Crossref (Journal of Optics)",
+      "title": "On-demand generation of all four Bell states using a single PPKTP entangled photon source",
+      "authors": [
+        "Gayatri Thik",
+        "Amit Loyal",
+        "K Srinivasan",
+        "Raghavan G"
+      ],
+      "abstract": "Abstract We present a compact, automated, high-brightness entangled photon source capable of generating all four Bell states with high fidelity. The system utilizes a type-0 quasi-phase-matched PPKTP crystal embedded within a polarization Sagnac interferometer. We introduce a switching scheme based on the controlled, motorized translation of the nonlinear crystal. This device is capable of generating any one of the Bell states on-demand. Experimentally, we demonstrate that translating the crystal from the interferometer's balanced position repeatedly toggles the state between |ϕ + ⟩ and |ϕ -⟩ (as well as |ψ + ⟩ and |ψ -⟩) at regular intervals of 122 ± 14 µm. Subsequently, a half-wave plate (HWP) in the idler arm performed transitions between the quantum states |ϕ ± ⟩ and |ψ ± ⟩. While the non-collinear geometry imposes an upper limit on the translation range as verified via EMCCD imaging, the source however, displays very little change of intensity in the operational window. State purity and entanglement are certified through quantum state tomography (QST), visibility measurements, Bell state measurements (BSM), and CHSH inequality violations, confirming that the source is robust and provides a repeatable, high-fidelity output.",
+      "url": "https://doi.org/10.1088/2040-8986/aea6f0",
+      "date": "2026-09-14",
+      "topics": [
+        "Quantum optics / photonics"
+      ]
+    },
+    {
+      "id": "doi:10.1088/1367-2630/aea6ff",
+      "source": "Crossref (New Journal of Physics)",
+      "title": "A scheme for deterministic photon-photon interaction via microresonator phase matching in AlGaAs-on-insulator circuit",
+      "authors": [
+        "Minghao Shang",
+        "Hua-Ying Liu",
+        "Shi-Ning Zhu",
+        "Zhenda Xie"
+      ],
+      "abstract": "Abstract Efficient photon-photon interaction towards 100% efficiency is a longstanding goal in optical quantum information processing, but remains challenging because of weak nonlinearity on current nonlinear optical platforms, or demanding requirements of on-chip microresonators. Here, we propose a scheme for deterministic photon-photon interaction (DPPI) by achieving microresonator phase matching, in an AlGaAs-on-insulator (AlGaAsOI) microdisk resonator. A 2.8-μm radius microdisk with a full air-cladding structure is used, for minimizing mode volume with low simulated bending loss. Strong structural dispersion engineering can be introduced in such small size, to achieve phase matching between TE and TM fundamental modes for maximal mode overlap. DPPI is therefore predicted with Q of only on the order of 4×10^6, providing a target for future fabrication development on the AlGaAsOI platform. Such scheme accesses the ultra-high material χ^(2) coefficient of the III-V material integrated photonic platform, bringing in potential for full-integrated multi-function optical quantum chip towards many quantum information processing tasks.",
+      "url": "https://doi.org/10.1088/1367-2630/aea6ff",
+      "date": "2026-09-14",
+      "topics": [
+        "Quantum information / computing"
       ]
     },
     {
